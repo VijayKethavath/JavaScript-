@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function sum(val){
+      return new Promise((resolve,reject)=>{
+        resolve(val+10);
+      })
+    }
+
+    function sub(val){
+      return new Promise((resolve,reject)=>{
+        resolve(val-5);
+      })
+    }
+
+    function mul(val)
+      return new Promise((resolve,reject)=>{
+        resolve(val*5);
+      })
+    }
+    function div(val){
+      return new Promise((resolve,reject)=>{
+        resolve(val/2);
+      })
+    }
+
+    sum(10).then((res)=>console.log(res))
+    sub(10).then((res)=>console.log(res))
+    mul(10).then((res)=>console.log(res))
+    div(10).then((res)=>console.log(res))j
+
+
+    sum(20).then((sumer)=>{
+      console.log(sumer);
+      sub(sumer).then((suber)=>{
+        console.log(suber);
+        mul(suber).then((mult)=>{
+          console.log(mult);
+          div(mult).then((divi)=>{
+            console.log(divi);
+            
+          })
+          
+        })
+        
+      })
+      
+    })
+
+  </script>
+</body>
+</html>
