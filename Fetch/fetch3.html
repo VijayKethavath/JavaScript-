@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+    var url="https://dummyjson.com/todos";
+    fetch(url).then(res=>console.log(res))
+
+    fetch(url).then(res=>res.json())
+    .then(res1=>console.log(res1)
+    )
+
+    fetch(url).then(res=>res.json())
+    .then(data=>{
+      for(let i=0;i<data.todos.length;i++){
+        console.log(data.todos[i]);
+        
+      }
+    })
+
+    fetch(url).then(res=>res.json())
+    .then(data=>console.log(data.limit)
+    )
+
+  </script>
+</body>
+</html>

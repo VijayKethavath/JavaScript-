@@ -9,21 +9,21 @@
   <script>
 
     const URL=("https://dummyjson.com/quotes");
-    console.log(fetch(URL));
+    console.log(fetch(URL));  //Status
 
     fetch(URL).then((res)=>{
-      console.log(res);
+      console.log(res);  //response
     })
 
     fetch(URL).then((res)=>{
       return res.json();
-    }).then((data)=>console.log(data))
+    }).then((data)=>console.log(data)) //data
 
     
     const url1="https://dummyjson.com/quotes";
     fetch(url1).then((res)=>res.json())
     .then(data=>{
-      console.log(data.limit);
+      console.log(data.limit);   //getting  wantend data
        console.log(data.quotes)
       })
     

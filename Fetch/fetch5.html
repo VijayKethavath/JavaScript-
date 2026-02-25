@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let url="https://pokeapi.co/api/v2/pokemon/ditto";
+    console.log(fetch(url));
+    
+    fetch(url).then(res=>console.log(res))
+
+    fetch(url).then(res=>res.json())
+    .then(data=>console.log(data))
+
+    fetch(url).then(res=>res.json())
+    .then(data=>{
+      for(let i=0;i<data.abilities.length;i++){
+        console.log(data.abilities[i].ability);
+        console.log(data.abilities[i].ability.name);
+        
+      }
+    })
+
+    fetch(url).then(res=>res.json())
+    .then(data=>{
+      for(let i=0;i< data.game_indices.length;i++){
+        console.log(data.game_indices[i])
+        console.log(data.game_indices[i].version)
+        console.log(data.game_indices[i].version.name)
+      }
+    })
+    
+  </script>
+</body>
+</html>
