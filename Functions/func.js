@@ -20,3 +20,23 @@ function mul(val, callback) {
 function div(val, callback) {
   callback(val / 10);
 }
+
+
+console.log("--------------------------------------");
+console.log("start");
+
+setTimeout(()=>{
+  console.log("first cell");
+},5000);
+
+for(i=0;i<=5;i++){
+  console.log(i);
+  
+}
+
+setTimeout(()=>{
+  console.log("Second cell");
+},3000);
+
+
+

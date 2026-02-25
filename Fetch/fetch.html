@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetching Data</title>
+</head>
+<body>
+  <script>
+
+    const URL=("https://dummyjson.com/quotes");
+    console.log(fetch(URL));
+
+    fetch(URL).then((res)=>{
+      console.log(res);
+    })
+
+    fetch(URL).then((res)=>{
+      return res.json();
+    }).then((data)=>console.log(data))
+
+    
+    const url1="https://dummyjson.com/quotes";
+    fetch(url1).then((res)=>res.json())
+    .then(data=>{
+      console.log(data.limit);
+       console.log(data.quotes)
+      })
+    
+
+
+  </script>
+</body>
+</html>

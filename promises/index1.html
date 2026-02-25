@@ -12,9 +12,11 @@
   <script>
     function x() {
       return new Promise((pass, fail)=> {
-        pass("he cleared all the subjects")
+        pass("He cleared all the subjects")
       })
     }
+    console.log(x());
+    
     x().then((result) =>
       console.log(result)
     )
