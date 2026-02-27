@@ -10,23 +10,23 @@
     var URL="https://jsonplaceholder.typicode.com/photos"
     console.log(fetch(URL));
 
-    // fetch(url).then(res=>console.log(res))
+    fetch(URL).then(res=>console.log(res))
 
     fetch(URL).then(res=>res.json())
     .then(data=>console.log(data))
 
-    fetch(URL).then(res=>res.json())
-    .then(data=>{
-      for(let i=0;i<data.length;i++){
-        console.log(data[i])
-      }
-    })
-    fetch(URL).then(res=>res.json())
-    .then(data=>{
-      for(let i=0;i<data.length;i++){
-        console.log(data[i].id)
-      }
-    })
+    // fetch(URL).then(res=>res.json())
+    // .then(data=>{
+    //   for(let i=0;i<data.length;i++){
+    //     console.log(data[i])
+    //   }
+    // })
+    // fetch(URL).then(res=>res.json())
+    // .then(data=>{
+    //   for(let i=0;i<data.length;i++){
+    //     console.log(data[i].id)
+    //   }
+    // })
 
 
     
