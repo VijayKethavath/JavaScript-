@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function sum(num1, num2) {
+      return num1 + num2;
+    }
+    console.log(sum(10, 20));
+    console.log("--------------");
+
+    function uppercase(name) {
+      console.log(name.toUpperCase());
+    }
+    uppercase("vijay kethavath");
+    console.log("--------------");
+
+    function print(name) {
+      console.log("Hello" + name);
+
+    }
+    print();
+    print("undefined");
+    console.log("--------------");
+
+    function arr(array) {
+      if (array.length == 0) {
+        console.log("Empty array");
+      }
+      else {
+        console.log("Not a Empty array");
+      }
+    }
+    arr([]);
+    arr([1, 2, 3]);
+    console.log("--------------");
+
+    function difference(age1, age2) {
+      return age1 - age2;
+    }
+    console.log("Age Difference is :" + difference(10, 6));
+    console.log("--------------");
+
+    function greet(name, age) {
+      return `Hello ${name}! You are ${age} years old`;
+    }
+    console.log(greet("vijay", 22));
+    console.log("--------------");
+
+    function checkeven(num) {
+      if (num % 2 == 0) {
+        return true;
+      }
+      else {
+        return false;
+      }
+    }
+    console.log("IsEven:" + checkeven(15));
+
+
+
+  </script>
+</body>
+
+</html>
