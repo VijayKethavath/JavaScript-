@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>put Patch</title>
+</head>
+<body>
+  <script>
+    var url="http://localhost:3000/Amimal/3";
+    let option={
+      "method":"put",
+      "header":{
+        "content-Type":"application/json"
+      },
+      "body":JSON.stringify({
+        "name":"Cow"
+      })
+    }
+    fetch(url,option).then(res=>{
+      if(res.ok){
+        console.log(res.statusText);
+      }
+      else{
+        console.log("smthg wrong");
+        
+      }
+    }).catch(res=>console.log(res))
+
+    fetch("http://localhost:3000/Amimal/4",{
+      "method":"PATCH",
+      "header":{
+        "content-Type":"application/json"
+      },
+      "body":JSON.stringify({
+        "name":"seal"
+      })
+    }).then(res=>{
+      if(res.ok){
+        console.log(res.statusText); 
+      }
+      else{
+        console.log("somthg wrong")
+      }
+    
+    }).catch(res=>console.log(res))
+  </script>
+  
+</body>
+</html>

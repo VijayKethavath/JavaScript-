@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>post</title>
+</head>
+<body>
+  <script>
+     const url="http://localhost:3000/Data";
+     let option={
+      "method":"POST",
+      "header":{
+        "content-Type":"application/json"
+      },
+      "body":JSON.stringify({
+        "id":"5",
+        "name":"Alivelu"
+      })
+     }
+     fetch(url,option).then(res=>{
+      if(res.ok){
+        console.log(res.status,res.statusText);
+      }
+      else{
+        console.log("something wrong");
+        
+      }
+     }).catch(res=>console.log(res)
+     )
+
+     fetch("http://localhost:3000/Data",{
+      "method":"POST",
+      "header":{
+        "content-Type":"application/json"
+      },
+      "body":JSON.stringify({
+        "id":"6",
+        "name":"Bruno"
+      })
+     }).then(res=>{
+      if(res.ok){
+        console.log(res.statusText);
+      }
+      else{
+        console.log("smthg wrng");
+        
+      }
+     }).catch(res=>console.log(res))
+
+
+  </script>
+</body>
+</html>
