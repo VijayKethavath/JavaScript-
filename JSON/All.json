@@ -1,0 +1,21 @@
+{
+  "Fruits": [
+    {
+      "id": "1",
+      "name": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "BlueBerry"
+    },
+    {
+      "id": "3",
+      "name": "Mango"
+    },
+    {
+      "id": "4",
+      "name": "Grapes"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

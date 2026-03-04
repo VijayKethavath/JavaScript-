@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <script>
+    let Fruits=
+    [
+      {
+        "id":"2",
+      "name":"BlueBerry"
+    },
+    {
+      "id":"4",
+      "name":"Grapes"
+    }
+    ]
+
+    let option={
+      "method":"PUT",
+      "headers":{
+        "content-type":"application/json"
+      }
+    }
+     for(let i=0;i<Fruits.length;i++){
+      let obj=Fruits[i]
+      option.body=JSON.stringify(obj)
+      fetch(`http://localhost:3000/Fruits/${obj.id}`,option)
+      .then(res=>{
+        if(res.ok){
+          console.log(res.status,res.statusText);
+          
+        }
+        else{
+          console.log("something wrong");
+          
+        }
+      }).catch(res=>console.log(res))
+    }
+
+   </script>
+</body>
+</html>
