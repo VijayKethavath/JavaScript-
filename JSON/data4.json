@@ -1,0 +1,21 @@
+{
+  "Amimal": [
+    {
+      "id": "1",
+      "name": "Dog"
+    },
+    {
+      "id": "2",
+      "name": "Cat"
+    },
+    {
+      "id": "3",
+      "name": "Cow"
+    },
+    {
+      "id": "4",
+      "name": "seal"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

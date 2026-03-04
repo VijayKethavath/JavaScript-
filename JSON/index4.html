@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All methods</title>
+</head>
+
+<body>
+  <script>
+    // var url = "http://localhost:3000/Amimal";
+    // let option = {
+    //   "method": "GET"
+    // }
+    // fetch(url, option).then(res => res.json())
+    // .then(data=>{
+    //   for(let i=0;i<data.length;i++){
+    //     fetch(`http://localhost:3000/Amimal/${data[i].id}`,{"method":"DELETE"})
+    //     .then(res=>{
+    //       if(res.ok){
+    //         console.log(res.statusText)
+    //       }
+    //       else{
+    //         console.log("wrong");   
+    //       }
+    //     })
+    //   }
+    // })
+
+    let Animal=[
+      {
+      "id": "1",
+      "name": "Dog"
+    },
+    {
+      "id": "2",
+      "name": "Cat"
+    },
+    {
+      "name": "Cow",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "seal"
+    }
+    ]
+
+    let option={
+      "method":"POST",
+      "header":{
+        "content-Type":"application/json"
+      }
+    }
+
+   for(let i=0;i<Animal.length;i++){
+    let obj=Animal[i]
+    option.body=JSON.stringify(obj)
+    fetch("http://localhost:3000/Amimal",option).then(res=>{
+      if(res.ok){
+        console.log(res.status)
+      }
+      else{
+        console.log("somthing wrong");
+        
+      }
+    })
+   }
+  </script>
+
+
+</body>
+
+</html>
