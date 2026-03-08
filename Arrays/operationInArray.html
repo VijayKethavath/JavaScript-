@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>array methods</title>
 </head>
+
 <body>
-  
+
   <script>
     //PUSH ->Adding element at End
-    let x=["A","B","C"];
+    let x = ["A", "B", "C"];
     x.push("D")
-    console.log("Push",x);
-    console.log(x.push("E","F"));    // return the length
+    console.log("Push", x);
+    console.log(x.push("E", "F"));    // return the length
     console.log(x);
 
     //POP->Removing last Elemnt
     console.log(x.pop());            // return the removed Element
-    console.log("Pop",x);
+    console.log("Pop", x);
 
     //Unshift->Adding Element at Beginning
-    console.log(x.unshift(10,20));  // return the length
-    console.log("Unshift",x)
+    console.log(x.unshift(10, 20));  // return the length
+    console.log("Unshift", x)
 
     //Shift->Removes first Element
     console.log(x.shift());         // return the removed Element
-    console.log("shift",x);
-    
+    console.log("shift", x);
 
+    //Array Splice
+    let Animal = ["Dog", "cat", "Deer", "Lion"]
+    Animal.splice(1, 0, "Goat", "cow")  // Adding two Element after 1st index
+    console.log(Animal);
 
+    Animal.splice(2, 4, "Tiger", "Seal")
+    console.log(Animal);
 
-    
-    
+    //Concat()
+    let array1 = [1, 2, 3];
+    let array2 = ['a', 'b', 'c'];
+    let z=array1.concat(array2);       // Merge Element
+    console.log(z);
 
+    //Slice
+    let num=[1,2,3,4,5,6]
+    let newnum=num.slice(1,5)         // Extract the elememt from 1 to 4 index
+    console.log(newnum)
 
+    //Arraysort
+    let arr=[5,6,2,7,1,9]
+    let newarr=arr.sort()           
+    console.log(newarr);
 
+    //Array toString()
+    console.log(newarr.toString())
 
-    
-    
+    //Includes
+    let Ani = ["Dog", "cat", "Deer", "Lion"];
+    console.log(Ani.includes("cat")); 
 
+    //Array join()
+    console.log(Ani.join("-"));
 
-    
-
-
-    
+    //Array copyWithin();
+    let s=[10,20,30,40,50]
+    s.copyWithin(0,3)
+    console.log(s);
     
   </script>
 
 </body>
+
 </html>
