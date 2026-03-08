@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let movies = ["Thor", "Iron man", "Harry potter"];
+    console.log("Array Element:", movies);
+
+    //push
+    movies.push("I");
+    movies.push("Raja Rani");
+    console.log("Array Element:", movies);
+
+    //using for loop
+    for (let i = 0; i < movies.length; i++) {
+      console.log(movies[i]);
+    }
+    console.log("");
+
+    // Using for...in loop
+    for (let i in movies) {
+      console.log(movies[i]);
+    }
+    console.log("");
+
+    //3. Using for...of loop
+    for (let mov of movies) {
+      console.log(mov);
+    }
+    console.log("");
+
+    //Remove the first and last elements
+    console.log("====================");
+    console.log("Pop Element :" + movies.pop());
+    console.log("shift Element:" + movies.shift());
+
+    //Reverse an array(push)
+    console.log("====================");
+    let arr = [1, 2, 3, 4, 5, 6];
+    let rev = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+      rev.push(arr[i]);
+    }
+    console.log("Arrar:", arr);
+    console.log("Reverse array:", rev);
+    console.log("====================");
+
+    // Even and odd
+    let arr1 = [12, 3, 5, 6, 22, 56, 29]
+    let esum = 0;
+    let osum = 0;
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] % 2 == 0) {
+        esum = esum + arr1[i]
+      }
+      else {
+        osum = osum + arr1[i]
+      }
+    }
+    console.log("Even sum:" + esum);
+    console.log("odd sum:" + osum)
+    console.log("====================");
+
+    let arr2 = ["apple", "banana", "mango", "banana", 3, 4, 5, 6, true, {name: "object"}];
+    let num=[]
+    let str=[]
+    let bool=[]
+    let obj=[]
+
+    for(let i in arr2){
+      if(typeof arr2[i]=="number"){
+        num.push(arr2[i]);
+      }
+      else if(typeof arr2[i]=="string"){
+        str.push(arr2[i])
+      }
+      else if(typeof arr2[i]=="boolean"){
+        bool.push(arr2[i])
+      }
+      else if(typeof arr2[i]=="object"){
+        obj.push(arr2[i])
+      }
+    }
+    console.log("number:",num);
+    console.log("String:",str);
+    console.log("Boolean:",bool);
+    console.log("Object:",obj);
+
+
+
+
+
+    //using
+  </script>
+</body>
+
+</html>

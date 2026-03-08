@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let sport = ["cricket", "vollyball"]
+    let hobbies = ["video games", "movies"]
+    let fvt = sport.concat(hobbies)
+    console.log(" Merged array", fvt);
+    console.log("====================");
+
+    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    console.log("Array Elemen:", array);
+    array.splice(3, 3, 40, 50, 60)
+    console.log("Replaced array Element:", array);
+    console.log("====================");
+
+    let days = ["Sunday", "Monday", "Tuesday", "wednesday",
+      "Thursday", "Friday", "Saturday"]
+    let weekdays = days.slice(1, 6)
+    console.log("week:", days);
+    console.log("WeekDays:", weekdays);
+    console.log("====================");
+
+    let words = ["I", "am", "always", "with", "you", ",", "Nanna"]
+    let sentence = words.join(" ")
+    console.log(sentence);
+    console.log("====================");
+
+    let me=[15,28,20,10,11,2,1985,2001,2003,2009,2020]
+    let newme=me.sort();
+    console.log(newme);
+
+    function x(num) {
+      num.sort((a,b)=>a-b);
+      console.log(num);
+    }
+    x(me);
+
+    
+    
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
