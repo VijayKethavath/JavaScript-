@@ -14,8 +14,8 @@
     fetch(url,option).then(res=>res.json())
     .then(data=>{
       for(let i=0;i<data.length;i++){
-        fetch(`http://localhost:3000/Animals/${data[i].id}`,{"method":"DELETE"})
-        .then(res=>{
+        fetch(`http://localhost:3000/Animals${data[i].id}`,{"method":"DELETE"})
+        then(res=>{
           if(res.ok){
             console.log(res.status,res.statusText)
           }
@@ -23,7 +23,7 @@
             console.log("something went wrong");
             
           }
-        }).catch(res=>console.log(res))
+        }).catch(res=>console.log())
       }
     })
   </script>

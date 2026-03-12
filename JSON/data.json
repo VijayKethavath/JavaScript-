@@ -19,15 +19,6 @@
     {
       "id": "5",
       "name": "Alivelu"
-    },
-    {
-      "id": "5",
-      "name": "Alivelu"
-    },
-    {
-      "id": "6",
-      "name": "Bruno"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

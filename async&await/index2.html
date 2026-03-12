@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //without Async and await
+    function test(){
+      let data=new Promise(
+        function(res){
+          setTimeout(()=>{
+            res("hello Deva")
+          },2000)
+        }
+      )
+      console.log(data)               // promise obj
+      data.then(res=>console.log(res))
+    }
+    test()
+
+    //with async and await
+    async function test1(){
+      let data= await new Promise(
+        function(res){
+          setTimeout(()=>{
+            res("hello Devi")
+          },3000)
+        }
+      )
+      console.log(data)           // promise result
+    }
+    test1()
+  </script>
+</body>
+</html>
