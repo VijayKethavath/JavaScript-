@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>foreach</title>
+</head>
+
+<body>
+  <script>
+    let arr = [1, 2, 3, 4, 5];
+    arr.forEach((ele) => console.log(ele));
+
+    console.log("==============");
+    arr.forEach(function (value, index, array) {
+      console.log(index);
+    });
+
+    console.log("==============");
+    let newarr = [];
+    arr.forEach((ele) => newarr.push(ele * ele));
+    console.log(newarr);
+
+     console.log("==============")
+    let fruits=["apple","Banana","Mango","Orange"]
+    fruits.forEach((value,index)=>{
+      console.log(index+" : "+value)
+    })
+  </script>
+</body>
+
+</html>
