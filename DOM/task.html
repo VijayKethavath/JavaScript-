@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+    let ul=document.createElement("ul")
+    for(let i=1;i<=5;i++){
+      let li=document.createElement("li")
+      li.innerText=i
+      ul.appendChild(li)
+    }
+   document.body.appendChild(ul)
+   console.log(ul)
+
+   let items = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+   let ol=document.createElement("ol")
+   for(let item of items){
+    let li=document.createElement("li")
+    li.innerText=item
+    ol.appendChild(li)
+   }
+   console.log(document.body.appendChild(ol))
+
+  </script>
+</body>
+</html>
