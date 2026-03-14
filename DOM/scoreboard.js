@@ -22,7 +22,7 @@ tr.append(td1,td2)
 // -----------row2------------
 let tr2=document.createElement("tr")
 let td21=document.createElement("td")
-td21.innerHTML="Nadendra Modi Stadium,Ahmedabad"
+td21.innerHTML="India won by 96 runs"
 tr2.style.backgroundColor="#1e40af"
 tr2.append(td21)
 td21.colSpan=6
