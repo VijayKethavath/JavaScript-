@@ -22,7 +22,7 @@ tr.append(td1,td2)
 // -----------row2------------
 let tr2=document.createElement("tr")
 let td21=document.createElement("td")
-td21.innerHTML="India won by 96 runs"
+td21.innerHTML="Nadendra Modi Stadium,Ahmedabad"
 tr2.style.backgroundColor="#1e40af"
 tr2.append(td21)
 td21.colSpan=6
@@ -139,7 +139,7 @@ row12.forEach((data)=>{
 // -----------row13------------
 let tr13=document.createElement("tr")
 let td13=document.createElement("td")
-td13.innerHTML="Nadendra Modi Stadium,Ahmedabad"
+td13.innerHTML="India won by 96 runs"
 tr13.style.backgroundColor="#1e40af"
 tr13.append(td13)
 td13.colSpan=6
