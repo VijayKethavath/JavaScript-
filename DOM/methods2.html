@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container"></div>
+  <script>
+
+ async function fetchdata(){
+  let res=await fetch("http://localhost:3000/person")
+  let data=await res.json();
+  getdata(data)
+ }
+ function getdata(data){
+  let container=document.getElementsByClassName("container")[0]
+  data.forEach(obj=>{
+    let p=document.createElement("p")
+    p.innerHTML=`
+    <h3>id:${obj.id}</h3>
+    <p>Name:${obj.name}</p>
+    `
+
+    container.appendChild(p)
+  })
+ }
+
+    
+
+    fetchdata()
+  </script>
+</body>
+</html>

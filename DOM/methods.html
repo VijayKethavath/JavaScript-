@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container"></div>
+  <div class="container1"></div>
+
+  <script>
+    let div=document.getElementById("container")
+    console.log(div)
+
+    let div1=document.getElementsByClassName("container1")
+    console.log(div1) // collection
+    console.log(div1[0])
+    //or
+     let div2=document.getElementsByClassName("container1")[0]
+     console.log(div2)
+
+//--------------------------------------------------------------------
+    let arr=[{id:"1"},{id:"2"},{id:"3"},]
+    let container=document.getElementsByClassName("container1")[0]
+    arr.forEach(obj=>{
+      let p=document.createElement("p")
+      p.innerHTML=`
+      id:${obj.id}
+      `
+      container.append(p)
+    })
+
+
+  </script>
+</body>
+</html>

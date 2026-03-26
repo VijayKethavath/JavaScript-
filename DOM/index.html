@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      width: 100px;
+    }
+    .container p{
+      border: 1px solid;
+      gap: 5px;
+      display: flex;
+      grid-template-columns:repeat(auto-fill,minmax(300px,1fr))
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+
+  <script>
+    async function fetchdata(){
+      let res=await fetch("https://fakestoreapi.com/products")
+      let data=await res.json()
+      getdata(data)
+    }
+
+    function getdata(data){
+      let container=document.getElementsByClassName("container")[0]
+      data.forEach(obj=>{
+        let p=document.createElement("p")
+        p.innerHTML=`
+        <h3>id:${obj.id}</h3>
+        <p>price:${obj.price}</p>
+        <p>Description:${obj.description}</p>
+        <img src='${obj.image}'>`
+
+        container.appendChild(p)
+        
+      });
+      console.log(container)
+    }
+    fetchdata()
+  </script>
+</body>
+</html>
