@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container"></div>
+  <script>
+    async function fetchdata(){
+      let res=await fetch("https://dummyjson.com/quotes")
+      let data=await res.json()
+      console.log(data)
+      getdata(data)
+    }
+    function getdata(data){
+      let container=document.getElementsByClassName("container")[0]
+      data.quotes.forEach(obj=>{
+        let p=document.createElement("p")
+        p.innerHTML=`
+        <h3>id: ${obj.id}</h3>
+        <p>Quote: ${obj.quote}<p>
+        <p>Author: ${obj.author}<p>
+        `
+        container.appendChild(p) 
+      })
+      let h2=document.createElement("h2")
+      h2.innerHTML=`limit:${data.limit} `
+      container.appendChild(h2)
+      console.log(container);
+      
+    }
+    fetchdata()
+  </script>
+
+
+  </div>
+</body>
+</html>
