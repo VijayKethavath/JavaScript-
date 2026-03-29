@@ -1,0 +1,20 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Devi",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4BOqXU6ImMGfuPpRb5QTNEa5M7Pte-QhLg&s"
+    },
+    {
+      "id": "2",
+      "name": "Ramya",
+      "img": "https://i.pinimg.com/474x/92/27/09/92270977294764eceea3fe3f0fc0533f.jpg"
+    },
+    {
+      "id":3,
+      "name":"gowthami",
+      "img":"https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034019.jpg?semt=ais_incoming&w=740&q=80"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
