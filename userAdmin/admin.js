@@ -16,14 +16,19 @@ function showdata(data) {
   let container = document.getElementsByClassName("container")[0];
   let item = document.createElement("div");
   item.innerHTML = data
-    .map((std) => {
+    .map((std,index) => {
       return `
-    <p>Id:${std.id}</p>
-    <p>Name:${std.name}</p>  
+      <div class= 'card ${index}'>
+    <h3>Id:${std.id}</h3>
+    <h4>Name:${std.name}</h4>
+    <img src='${std.img}' style='width:200px'><br>
     <button id='delbtn${std.id}'>Delete</button>
     <button id='editbtn${std.id}'>Edit</button>
-     `;
+    </div>
+     `
+     
     }).join("");
+    
     
 
   container.appendChild(item);
@@ -73,8 +78,29 @@ async function savedata(){
   let stdid=document.getElementById("id").value
   let name=document.getElementById("name").value
   let image=document.getElementById("image").value
-  console.log(name)
-  console.log(image)
+  // console.log(name)
+  // console.log(image)
+  let obj={
+    "name":name,
+    "img":image
+  }
+
+  let stdmethod =stdid?"PUT":"POST"
+  let url=stdid?`http://localhost:3000/student/${stdid}`:"http://localhost:3000/student"
+  let res=await fetch(url,{
+    "method":stdmethod,
+    "header":{
+      "content-type":"application/json"
+    },
+    "body":JSON.stringify(obj)
+
+  }
+)
+if(res.ok){
+  alert("Data Updated");
+  
+}
+ 
 }
 
 document.addEventListener("DOMContentLoaded", fetchData);

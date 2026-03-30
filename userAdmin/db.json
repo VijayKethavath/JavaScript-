@@ -1,19 +1,24 @@
 {
   "student": [
     {
-      "id": "1",
-      "name": "Devi",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4BOqXU6ImMGfuPpRb5QTNEa5M7Pte-QhLg&s"
+      "name": "Penguin",
+      "img": "https://thumbs.dreamstime.com/b/four-adorable-baby-penguins-stand-together-snowy-ground-cute-chicks-antarctica-wild-nature-scene-background-animals-winter-346768964.jpg",
+      "id": "1"
     },
     {
-      "id": "2",
-      "name": "Ramya",
-      "img": "https://i.pinimg.com/474x/92/27/09/92270977294764eceea3fe3f0fc0533f.jpg"
+      "name": "Seal",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rwGH1zN17AFF-PySSSoQNHufEPo3S9t7hQ&s",
+      "id": "2"
     },
     {
-      "id":3,
-      "name":"gowthami",
-      "img":"https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034019.jpg?semt=ais_incoming&w=740&q=80"
+      "name": " Bady chimpanzee",
+      "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr603f8RzIGSQQOLXWZYmmIw5PG09fGmAmbw&s",
+      "id": "4"
+    },
+    {
+      "id": "cefa",
+      "name": "Monkey",
+      "img": "https://c8.alamy.com/zooms/9/0055b10aec2346589ba4dbb291e03f71/2g06x09.jpg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
