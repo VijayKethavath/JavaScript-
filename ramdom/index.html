@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2> Random NickName Generetor</h2>
+  <input type="text" id="name"><br><br>
+  <button id="btn">Generate Nickname </button><br><br>
+
+  <script>
+
+    let arr=["hero","King","Champion","Legend"]
+    let btn=document.getElementById("btn")
+    let name=document.getElementById("name")
+    btn.onclick=()=>{
+      console.log(name.value)
+      let random=Math.floor(Math.random()*arr.length)
+      let nick=arr[random]
+      document.body.append(name.value+", Your Nickname is "+nick)
+
+    }
+  </script>
+</body>
+</html>
