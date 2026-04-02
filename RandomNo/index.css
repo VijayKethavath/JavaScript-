@@ -1,0 +1,75 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* dark background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container (Card) */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #111;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid #111;
+    background-color: #111;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/* Instruction text */
+p {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Result message */
+#mt {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+     transition: 0.3s;
+}
