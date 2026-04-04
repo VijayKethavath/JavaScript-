@@ -48,8 +48,10 @@ function show(data) {
     desc.innerHTML = "Sunny";
   } else if (temperature > 68) {
     img.src = "https://cdn-icons-png.flaticon.com/512/1163/1163661.png"; // partly cloudy
+    desc.innerHTML = "cool/cloudy";
   } else {
     img.src = "https://cdn-icons-png.flaticon.com/512/414/414825.png"; // cool/cloudy
+    desc.innerHTML = "cool/cloudy";
   }
 }
 
