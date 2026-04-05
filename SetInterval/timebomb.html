@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    div{
+      width: 70vw;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    img {
+      width: 40vw;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img id="img" src="https://www.shutterstock.com/image-vector/realistic-bomb-burning-fuse-emitting-600nw-2474308221.jpg">
+    <h1 id="time">Time left : 10</h1>
+  </div>
+
+  <script>
+    let time = document.getElementById("time")
+    let left=10;
+    let timer=setInterval(()=>{
+      left--
+      time.innerText='Time left :0'+left
+
+      if(left<=3){
+        time.style.color="red"
+      }
+      if(left<=0){
+        clearInterval(timer)
+        img.src="https://png.pngtree.com/png-vector/20240315/ourmid/pngtree-nuclear-explosion-composition-png-image_11973925.png"
+        time.innerText="Bomb Blasted"
+
+      }
+
+    },1000)
+
+  </script>
+
+
+</body>
+
+</html>
