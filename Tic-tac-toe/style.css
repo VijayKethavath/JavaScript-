@@ -45,3 +45,21 @@ button:hover{
   box-shadow: 0 0 1rem rgba(56, 186, 248, 0.7);
   
 }
+.win {
+  border: 2px solid #00f7ff;
+  box-shadow: 
+    0 0 5px #00f7ff,
+    0 0 10px #00f7ff,
+    0 0 20px #00f7ff,
+    0 0 40px #00f7ff;
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px #00f7ff; }
+  50% { box-shadow: 0 0 25px #00f7ff; }
+  100% { box-shadow: 0 0 5px #00f7ff; }
+}
+#msg{
+  font-size: 5vmin;
+}
