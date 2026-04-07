@@ -1,0 +1,27 @@
+.form-group {
+  width: 300px;
+  margin: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input.error {
+  border-color: red;
+}
+
+.error-message {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #ffe6e6;
+  color: red;
+  border-radius: 5px;
+  display: none;
+}
