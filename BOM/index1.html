@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button onclick="openwindow()">open window</button>
+  <button onclick="closewindow()">close window</button>
+
+  <button onclick="start()">Start</button>
+  <button onclick="stop()">Stop</button>
+
+  <input type="text" id="input" placeholder="Send data to localStorage">
+  <button onclick="saveData()">save Data</button>
+
+  <script>
+    let res;
+
+    function openwindow() {
+      res = window.open("https://in.pinterest.com/", " ", "width=500px,height=500px")
+    }
+
+    function closewindow() {
+      let close = window.confirm("Do you wanna close", res)
+
+      if (close) {
+        res.close();
+      }
+      else {
+        alert("Thank you")
+      }
+
+    }
+
+    //-----------------------------------------
+    let st;
+    function start() {
+      let i = 1;
+      console.log("start");
+      st = window.setInterval(() => {
+        console.log(i++);
+        let date=new Date();
+        console.log(`SS : ${date.getSeconds()}`);
+        
+      }, 1000)
+    }
+
+    function stop() {
+      window.clearInterval(st)
+      console.log("stop");
+
+    }
+
+    // --------------------------
+    function saveData(){
+    let input=document.getElementById("input")
+
+    localStorage.setItem("name",input.value)
+    console.log(localStorage.getItem("name"));
+    }
+
+  </script>
+</body>
+
+</html>
