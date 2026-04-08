@@ -1,0 +1,64 @@
+* {
+      padding: 0;
+      margin: 0;
+    }
+    .container{
+      margin: 100px;
+      
+    }
+
+    form {
+      width: 40vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input {
+      width: 30vw;
+      height: 2vmin;
+      font-weight: bold;
+      border: 2PX solid black;
+      border-radius: 5PX;
+      padding: 10PX;
+      margin-left: 2vmin;
+
+    }
+
+    #ename,
+    #efname,
+    #epassword,
+    #econfirm,
+    #eemail,
+    #eno {
+      width: 30vw;
+      /* height:3vh; */
+      font-size: 2vmin;
+      display: none;
+      padding: 2vmin;
+      border: 1px solid red;
+      background-color: #fdecea;
+      color: red;
+      border-radius: 5px;
+      margin-left: 2vmin;
+      
+      
+    }
+    legend{
+      font-size: 2rem;
+      margin: 4vmin;
+     
+    }
+    fieldset{
+      width: 20vw;
+      height: 60vh;
+    }
+
+    button{
+      width: 50px;
+      padding: 4px;
+      border-radius: 5px;
+      margin-left: 2vmin;
+
+    }
