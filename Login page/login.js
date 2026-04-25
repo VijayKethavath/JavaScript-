@@ -33,12 +33,15 @@ submit.addEventListener("click",function(event){
  const email = document.getElementById("email").value;
 const password = document.getElementById("password").value;
 
-signInWithEmailAndPassword(auth, email, password)
+signInWithEmailAndPassword  (auth, email, password)
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
+    localStorage.setItem("email",user.email)
+
     alert("Logged In Successfully!");
-    window.location.href = "/home.html"
+    
+    window.location.href = "home.html"
     // ...
   })
   .catch((error) => {

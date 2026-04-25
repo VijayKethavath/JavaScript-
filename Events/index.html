@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<button onclick="alert('this is Event')">click me</button>
+<button ondblclick="alert('this is double click')">Double click</button>
+<!-- ------------------------------------------------------------------ -->
+
+<button id="btn1">colour</button>
+<button id="btn2">click</button>
+<button id="btn3">text</button>
+
+<script>
+
+  let btn1=document.getElementById("btn1")
+  let btn2=document.getElementById("btn2")
+  console.log(btn1)
+
+  btn1.onclick=()=>{
+    document.body.style.background="red";
+    btn2.remove();
+  }
+
+  btn3.addEventListener("click",()=>{
+    console.log("Hello there")
+    let p=document.createElement("p")
+    p.innerText="Hello"
+    document.body.appendChild(p)
+    console.log(p)
+  })
+
+
+
+</script>
+
+
+
+</body>
+</html>

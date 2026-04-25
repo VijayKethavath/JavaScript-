@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="p1">Player1</button>
+  <button id="p2">Player2</button>
+  <button onclick="check()" id="b">Check</button>
+  <p id="msg"></p>
+
+  <script>
+
+    let arr=[0,1,,2,3,4,5,6]
+    let val1=0;
+    let val2=0;
+
+    let p1=document.getElementById("p1")
+    let p2=document.getElementById("p2")
+    let msg=document.getElementById("msg")
+
+    p1.addEventListener("click",()=>{
+      let ran=Math.floor(Math.random()*arr.length);
+      console.log(ran)
+      val1=arr[ran]
+    })
+
+    p2.addEventListener("click",()=>{
+      let ran=Math.floor(Math.random()*arr.length);
+      console.log(ran)
+      val2=arr[ran]
+    })
+
+    function check(){
+      if(val1>val2){
+      msg.innerText="Player 1 win"
+    }
+    else if (val1<val2){
+      msg.innerText="Player 2 win"
+    }
+    else{
+      msg.innerText="Draw"
+    }
+    }
+
+    
+  </script>
+
+</body>
+</html>

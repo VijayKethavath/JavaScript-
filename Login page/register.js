@@ -38,7 +38,7 @@ createUserWithEmailAndPassword(auth, email, password)
     // Signed up 
     const user = userCredential.user;
     alert("Account created Successfully!");
-    window.location.href = "/login.html"
+    window.location.href = "index.html"
     // ...
   })
   .catch((error) => {

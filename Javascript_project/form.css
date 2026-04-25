@@ -1,0 +1,178 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* NAVBAR */
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1a73e8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 24px;
+  height: 24px;
+}
+.menu img {
+  width: 24px;
+  height: 24px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Menu */
+.menu p {
+  cursor: pointer;
+  font-size: 16px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+}
+.menu p:hover {
+  color: #0077ff;
+}
+
+.form-container {
+  width: 50%;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row .input-group {
+  flex: 1;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
+}
+
+/*  */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-item i {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.label {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.value {
+  font-size: 14px;
+  color: #fff;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #333;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+  position: relative;
+}
+
+.footer-bottom span {
+  padding: 0 10px;
+}
+
+.footer-bottom::before,
+.footer-bottom::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background: #444;
+  vertical-align: middle;
+  margin: 0 10px;
+}

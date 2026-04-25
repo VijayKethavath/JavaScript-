@@ -31,7 +31,7 @@ boxes.forEach((box) => {
     box.disabled = true;
     count++;
 
-    if (count > 8) {
+    if (count>9 ) {
       let msg = document.getElementById("msg");
       msg.innerText = "It's a Draw 🤝";
       msg.style.color = "#333";

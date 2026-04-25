@@ -6,19 +6,24 @@
       "id": "1"
     },
     {
-      "name": "Seal",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rwGH1zN17AFF-PySSSoQNHufEPo3S9t7hQ&s",
+      "name": "Goat",
+      "img": "https://ichef.bbci.co.uk/ace/standard/3840/cpsprodpb/456e/live/08bb1170-3f6c-11ef-abf4-9dcdb3140a6f.jpg",
       "id": "2"
     },
     {
-      "name": " Bady chimpanzee",
-      "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr603f8RzIGSQQOLXWZYmmIw5PG09fGmAmbw&s",
+      "id": "3",
+      "name": "Monkey",
+      "img": "https://c8.alamy.com/zooms/9/0055b10aec2346589ba4dbb291e03f71/2g06x09.jpg"
+    },
+    {
+      "name": " Baby chimpanzee",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr603f8RzIGSQQOLXWZYmmIw5PG09fGmAmbw&s",
       "id": "4"
     },
     {
-      "id": "cefa",
-      "name": "Monkey",
-      "img": "https://c8.alamy.com/zooms/9/0055b10aec2346589ba4dbb291e03f71/2g06x09.jpg"
+      "id": "7736",
+      "name": "Panda",
+      "img": "https://i.natgeofe.com/k/6f2282df-1c6a-474a-9216-ed97b3dce858/Panda-Bamboo_Panda-Quiz_KIDS_1021.jpg?wp=1&w=1084.125&h=721.875"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

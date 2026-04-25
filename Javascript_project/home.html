@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RouteStories </title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div id="nav">
+    <div class="logo">
+      RouteStories
+      <img src="https://img.icons8.com/ios/100/europe.png" alt="" />
+    </div>
+
+    <div class="menu" id="menu">
+      <p onclick="window.location.href='home.html'">HOME</p>
+      <p onclick="window.location.href='book.html'">BOOKS</p>
+      <p onclick="window.location.href='trips.html'">TRIPS</p>
+      <p onclick="window.location.href='dest.html'">DESTINATIONS</p>
+      <!-- <p>INSPIRATION</p> -->
+    </div>
+
+    <div class="icons">
+      <!-- <img src="https://img.icons8.com/pastel-glyph/128/search--v2.png" alt="" /> -->
+      <!-- <img onclick="window.location.href='cart.html'" src="https://img.icons8.com/fluency-systems-regular/96/shopping-cart--v1.png" alt="" /> -->
+
+      <div class="cart-box" onclick="window.location.href='cart.html'">
+        <img src="https://img.icons8.com/fluency-systems-regular/96/shopping-cart--v1.png" alt="">
+        <span id="card-length"></span>
+      </div>
+
+      <img onclick="window.location.href='index.html'" src="https://img.icons8.com/cotton/64/logout-rounded--v3.png" alt="" />
+
+
+
+    </div>
+
+    <!------------------------------ -->
+
+    <div class="hamburger">
+      ☰
+    </div>
+  </div>
+
+  <!-- ----------------Home img-------------------- -->
+
+  <div id="hero">
+    <img src="charlotte-noelle-98WPMlTl5xo-unsplash.webp" alt="travel">
+
+    <div class="overlay">
+      <h1>OUR GUIDES.<br>YOUR STORIES.</h1>
+    </div>
+  </div>
+
+
+  <!-- --------------------Latest------------------------------------- -->
+
+  <h2 class="heading">Latest stories</h2>
+
+  <div id="stories-container" class="stories"></div>
+
+  <!-- --------------------------Trip------------------------------- -->
+
+  <h2 class="heading">Book your dream trip</h2>
+  <p style="margin: 10px 0 0 40px;color: gray;">Lock in your 2026 travel plans with Lonely Planet Journeys. Check out
+    our favorite ready-to-book trips, crafted by our team of experts all over the world.</p>
+
+  <div id="trip" class="trip-container"></div>
+
+  <!-- ------------------Destination------------------------------------- -->
+
+  <h2 class="heading">Featured destinations</h2>
+  <div id="destination" class="destination-content"></div>
+
+
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-item">
+      <i class="fas fa-user"></i>
+      <div>
+        <p class="label">DESIGNED BY</p>
+        <p class="value">Vijay Kethavath</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer-item">
+      <i class="fas fa-envelope"></i>
+      <div>
+        <p class="label">EMAIL</p>
+        <p class="value">kethavathvijay2210@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer-item">
+      <i class="fas fa-phone"></i>
+      <div>
+        <p class="label">PHONE</p>
+        <p class="value">+91 6302112484</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="footer-item">
+      <i class="fas fa-shield-alt"></i>
+      <div>
+        <p class="label">ALL RIGHTS</p>
+        <p class="value">© 2026 RouteStories</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <span>Explore. Dream. Discover.</span>
+  </div>
+</footer>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <script src="home.js"></script>
+</body>
+
+</html>

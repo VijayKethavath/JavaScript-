@@ -1,0 +1,1919 @@
+{
+  "latestStories": [
+    {
+      "id": 1,
+      "title": "The ultimate weekend in East Cork, Ireland",
+      "date": "Aug 21, 2026",
+      "readTime": "8 min read",
+      "image": "img/l1.webp",
+      "button": "Read Story",
+      "author": {
+        "name": "Amy Lynch",
+        "role": "Writer",
+        "location": "Dublin",
+        "profileImage": "images/authors/amy.jpg"
+      },
+      "description": [
+        "When most visitors arrive in County Cork in the south of Ireland, they tend to head straight to the craggy Beara Peninsula in West Cork, with its stunning coastal views, or to the famous pubs and food markets of Cork City. Yet those who venture east from the county capital will find plenty of sights and activities to fill a rewarding weekend – from coastal walks to foodie stops – and fewer fellow visitors to share them with.",
+        "I’m a Dubliner, and this visit to East Cork was my first ever venture to the county; I left a few days later, absolutely blown away by the views, the flavors and the friendliness. From stunning cliffside walking and local markets to world-class restaurants and historic buildings, East Cork entices at every bend in the road.",
+        "Whether you reach Cork by plane, train or road, here’s how to spend an ultimate weekend in East Cork, taking full advantage of its friendly towns and villages and gorgeous scenery."
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "How to get around New York City",
+      "date": "Apr 21, 2026",
+      "readTime": "12 min read",
+      "image": "img/l2.webp",
+      "button": "Read Story",
+      "description": [
+        "Navigating New York City can seem overwhelming at first, but once you understand the transportation system, getting around becomes surprisingly efficient. The subway operates 24/7 and connects all major boroughs, making it the backbone of the city’s transport network.",
+        "Buses are a great option for shorter distances and offer scenic views of neighborhoods you might miss underground. For convenience, taxis and ride-sharing services are available throughout the city, especially useful late at night or when carrying luggage.",
+        "Walking remains one of the best ways to truly experience New York. From Central Park to Times Square and Brooklyn’s waterfront, each street tells a story. With proper planning and a MetroCard or digital pass, you can explore the city like a local and make the most of your trip."
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "The best things to do in Alaska with kids",
+      "date": "Apr 21, 2026",
+      "readTime": "5 min read",
+      "image": "img/l3.webp",
+      "button": "Read Story",
+      "description": [
+        "Alaska offers a unique playground for families looking to combine adventure with education. From spotting whales and bears in their natural habitats to exploring glaciers, kids are introduced to nature in its most raw and exciting form.",
+        "Family-friendly activities include guided wildlife tours, scenic train rides through breathtaking landscapes, and visits to interactive museums where children can learn about Alaska’s history and culture. National parks like Denali provide unforgettable outdoor experiences suitable for all ages.",
+        "Whether it’s kayaking through icy waters, enjoying a dog sledding experience, or simply taking in the stunning views, Alaska creates lasting memories for families seeking something beyond the ordinary vacation."
+      ]
+    },
+
+    {
+      "id": 4,
+      "title": "New York City's 11 best museums",
+      "date": "Apr 21, 2026",
+      "readTime": "7 min read",
+      "image": "img/l4.webp",
+      "button": "Read Story",
+      "description": [
+        "New York City stands as a global hub for art, history and culture, offering an impressive range of museums that cater to every interest. From iconic institutions like The Metropolitan Museum of Art to contemporary spaces like MoMA, the city provides endless opportunities for discovery.",
+        "Visitors can explore everything from ancient artifacts and classical paintings to cutting-edge installations and scientific exhibitions. The American Museum of Natural History, for example, offers immersive experiences that captivate both adults and children alike.",
+        "Many museums also host temporary exhibitions, workshops and guided tours, ensuring there’s always something new to see. Whether you’re an art enthusiast or a curious traveler, New York’s museums promise a rich and inspiring journey."
+      ]
+    },
+
+    {
+      "id": 5,
+      "title": "10 of London's best museums",
+      "date": "Apr 21, 2026",
+      "readTime": "10 min read",
+      "image": "img/l5.webp",
+      "button": "Read Story",
+      "description": [
+        "London is home to some of the world’s most renowned museums, many of which offer free entry, making them accessible to everyone. The British Museum showcases artifacts spanning thousands of years, while Tate Modern brings contemporary art to life in a striking industrial setting.",
+        "The Natural History Museum is a favorite among families, featuring fascinating exhibits on dinosaurs, space and the natural world. Meanwhile, the Victoria and Albert Museum highlights design, fashion and decorative arts from around the globe.",
+        "With such a diverse selection, London’s museums cater to every curiosity. Whether you're diving into history, exploring artistic expression, or engaging with science, each visit offers a deeper understanding of the world."
+      ]
+    }
+  ],
+
+  "latestTrips": [
+    {
+      "id": 101,
+      "title": "Treasures of Türkiye: Ancient Ruins and Anatolian Adventures",
+      "duration": "10 days / 9 nights",
+      "price": 2995,
+      "currency": "USD",
+      "image": "img/t1.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Türkiye’s rich cultural heritage through ancient ruins and vibrant cities.",
+        "Visit Istanbul, Izmir and Cappadocia with expert guides.",
+        "A perfect blend of history, culture and scenic beauty."
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Winter in the Arctic North: 12 Days by Water and Land",
+      "duration": "12 days / 11 nights",
+      "price": 7492,
+      "currency": "USD",
+      "image": "img/t2.avif",
+      "button": "Book Now",
+      "description": [
+        "Experience Arctic landscapes, frozen fjords and northern lights.",
+        "Travel by ship and land through remote regions.",
+        "An unforgettable winter adventure."
+      ]
+    },
+    {
+      "id": 103,
+      "title": "South Africa’s Stunning South: Cape Town & Garden Route",
+      "duration": "12 days / 11 nights",
+      "price": 3100,
+      "currency": "USD",
+      "image": "img/t3.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Cape Town, vineyards and scenic coastal drives.",
+        "Enjoy wildlife, beaches and local cuisine.",
+        "Perfect mix of adventure and relaxation."
+      ]
+    },
+    {
+      "id": 104,
+      "title": "A Portal Through Portugal: Lisbon, Porto & Coastal Gems",
+      "duration": "10 days / 9 nights",
+      "price": 3120,
+      "currency": "USD",
+      "image": "img/t4.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Portugal’s charming cities and coastline.",
+        "Walk through historic streets and enjoy ocean views.",
+        "A relaxing European escape."
+      ]
+    },
+    {
+      "id": 105,
+      "title": "India: A 13-Day Culinary Adventure to Kerala",
+      "duration": "13 days / 12 nights",
+      "price": 5440,
+      "currency": "USD",
+      "image": "img/k.avif",
+      "button": "Book Now",
+      "description": [
+        "Experience Kerala’s backwaters, spices and cuisine.",
+        "Stay in houseboats and explore local traditions.",
+        "Perfect for food and culture lovers."
+      ]
+    },
+    {
+      "id": 106,
+      "title": "The French Riviera and Provence: Authentic France Journey",
+      "duration": "11 days / 10 nights",
+      "price": 4430,
+      "currency": "USD",
+      "image": "img/t5.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore coastal beauty and countryside charm.",
+        "Visit lavender fields, beaches and historic towns.",
+        "A luxurious and scenic trip."
+      ]
+    },
+    {
+      "id": 107,
+      "title": "The Other Italy: Sicily Grand Tour",
+      "duration": "11 days / 10 nights",
+      "price": 4950,
+      "currency": "USD",
+      "image": "img/t6.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Sicily’s culture, history and coastline.",
+        "Visit Taormina, Palermo and Syracuse.",
+        "A unique Italian experience."
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Cruising Norway’s Fjords: Summer Expedition",
+      "duration": "15 days / 14 nights",
+      "price": 7386,
+      "currency": "USD",
+      "image": "img/t7.avif",
+      "button": "Book Now",
+      "description": [
+        "Cruise through Norway’s stunning fjords.",
+        "Enjoy breathtaking landscapes and midnight sun.",
+        "Ideal for nature lovers."
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Japan’s Golden Route: Tokyo to Kyoto",
+      "duration": "14 days / 13 nights",
+      "price": 6820,
+      "currency": "USD",
+      "image": "img/t9.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Japan’s top destinations in one trip.",
+        "From Tokyo’s modern life to Kyoto’s tradition.",
+        "A perfect cultural journey."
+      ]
+    }
+  ],
+
+  "featuredDestinations": [
+    {
+      "id": 201,
+      "country": "Spain",
+      "place": "Seville",
+      "image": "img/d1.avif",
+      "button": "Discover",
+      "about": "Seville is the capital of southern Spain’s Andalusia region, famous for flamenco dancing, historic architecture, and vibrant culture.",
+      "description": [
+        "Seville is known for its stunning landmarks like the Alcázar Palace and Seville Cathedral.",
+        "The city offers a rich mix of history, culture, and nightlife.",
+        "It is one of the best places to experience authentic Spanish traditions."
+      ],
+      "mustVisit": [
+        "Alcázar of Seville",
+        "Seville Cathedral",
+        "Plaza de España",
+        "Metropol Parasol"
+      ]
+    },
+    {
+      "id": 202,
+      "country": "Europe",
+      "place": "Faroe Islands",
+      "image": "img/d2.avif",
+      "button": "Discover",
+      "about": "The Faroe Islands are a group of volcanic islands between Iceland and Norway, known for dramatic landscapes.",
+      "description": [
+        "Perfect for nature lovers with waterfalls, cliffs, and green hills.",
+        "Offers peaceful and less crowded travel experience.",
+        "Ideal for hiking and photography."
+      ],
+      "mustVisit": [
+        "Mulafossur Waterfall",
+        "Torshavn",
+        "Gasadalur Village",
+        "Lake Sørvágsvatn"
+      ]
+    },
+    {
+      "id": 203,
+      "country": "Australia & Pacific",
+      "place": "Palau",
+      "image": "img/d3.avif",
+      "button": "Discover",
+      "about": "Palau is a tropical paradise in the Pacific Ocean known for crystal-clear waters and marine biodiversity.",
+      "description": [
+        "One of the best diving destinations in the world.",
+        "Famous for Rock Islands and Jellyfish Lake.",
+        "Great for snorkeling and island hopping."
+      ],
+      "mustVisit": [
+        "Rock Islands",
+        "Jellyfish Lake",
+        "Ngardmau Waterfall",
+        "Koror Island"
+      ]
+    },
+    {
+      "id": 204,
+      "country": "Caribbean",
+      "place": "Antigua & Barbuda",
+      "image": "img/d4.avif",
+      "button": "Discover",
+      "about": "Antigua & Barbuda is a Caribbean nation known for its 365 beaches and luxury resorts.",
+      "description": [
+        "Perfect destination for beach lovers.",
+        "Offers crystal-clear water and white sand beaches.",
+        "Popular for sailing and water sports."
+      ],
+      "mustVisit": [
+        "Dickenson Bay",
+        "Nelson’s Dockyard",
+        "Shirley Heights",
+        "Half Moon Bay"
+      ]
+    },
+    {
+      "id": 205,
+      "country": "Netherlands",
+      "place": "Maastricht",
+      "image": "img/d5.avif",
+      "button": "Discover",
+      "about": "Maastricht is a historic city in the Netherlands known for its medieval architecture and vibrant culture.",
+      "description": [
+        "Offers a blend of history and modern lifestyle.",
+        "Known for beautiful squares and cafes.",
+        "Great place for walking tours."
+      ],
+      "mustVisit": [
+        "Vrijthof Square",
+        "St. Servatius Bridge",
+        "Maastricht Caves",
+        "Bonnefanten Museum"
+      ]
+    },
+    {
+      "id": 206,
+      "country": "India",
+      "place": "Kerala",
+      "image": "img/d6.webp",
+      "button": "Discover",
+      "about": "Kerala, known as 'God’s Own Country', is famous for its backwaters, greenery, and peaceful lifestyle.",
+      "description": [
+        "Kerala offers a perfect blend of beaches, hills, and backwaters.",
+        "It is known for houseboat experiences in Alleppey.",
+        "Rich culture, Ayurveda, and traditional cuisine attract tourists worldwide."
+      ],
+      "mustVisit": [
+        "Alleppey Backwaters",
+        "Munnar Hills",
+        "Wayanad",
+        "Kochi Fort Area"
+      ]
+    },
+    {
+      "id": 207,
+      "country": "India",
+      "place": "Jaipur",
+      "image": "img/d7.webp",
+      "button": "Discover",
+      "about": "Jaipur, the Pink City of India, is known for its royal palaces, forts, and vibrant culture.",
+      "description": [
+        "Jaipur showcases the royal heritage of Rajasthan.",
+        "Famous for its colorful markets, handicrafts, and food.",
+        "A perfect destination for history and architecture lovers."
+      ],
+      "mustVisit": ["Hawa Mahal", "Amber Fort", "City Palace", "Jantar Mantar"]
+    },
+    {
+      "id": 208,
+      "country": "Australia & Pacific",
+      "place": "Tonga",
+      "image": "img/d8.avif",
+      "button": "Discover",
+      "about": "Tonga is a Polynesian kingdom of more than 170 islands known for its beaches, coral reefs, and rich marine life.",
+      "description": [
+        "Tonga is famous for its untouched beaches and crystal-clear waters.",
+        "One of the few places in the world where you can swim with humpback whales.",
+        "Perfect destination for peaceful island life and nature lovers."
+      ],
+      "mustVisit": [
+        "Haʻamonga ʻa Maui Trilithon",
+        "Mapu’a ‘a Vaea Blowholes",
+        "Eua Island",
+        "Tongatapu Beaches"
+      ]
+    },
+    {
+      "id": 209,
+      "country": "Argentina",
+      "place": "Patagonia",
+      "image": "img/d9.avif",
+      "button": "Discover",
+      "about": "Patagonia is a stunning region in southern Argentina and Chile, known for glaciers, mountains, and wild landscapes.",
+      "description": [
+        "Patagonia offers breathtaking views of glaciers and snow-capped peaks.",
+        "A paradise for trekking, hiking, and adventure lovers.",
+        "Home to unique wildlife and untouched natural beauty."
+      ],
+      "mustVisit": [
+        "Perito Moreno Glacier",
+        "Torres del Paine",
+        "Mount Fitz Roy",
+        "Los Glaciares National Park"
+      ]
+    }
+  ],
+
+  "books": [
+    {
+      "id": 301,
+      "title": "Let's Go Rock Collecting",
+      "category": "Book",
+      "price": 1200,
+      "currency": "INR",
+      "image": "img/b1.webp",
+      "author": "Emma Carter",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "2nd Edition",
+      "pages": 180,
+      "overview": "A fun and educational guide for kids and beginners to explore rocks, minerals, and nature adventures.",
+      "details": [
+        "Learn how to identify different types of rocks",
+        "Perfect for outdoor exploration and learning",
+        "Includes colorful illustrations and activities"
+      ]
+    },
+
+    {
+      "id": 302,
+      "title": "Let's Go Stargazing",
+      "category": "Book",
+      "price": 1200,
+      "currency": "INR",
+      "image": "img/b2.webp",
+      "author": "Daniel Brooks",
+      "publishedDate": "2022",
+      "language": "English",
+      "edition": "1st Edition",
+      "pages": 200,
+      "overview": "A beginner-friendly guide to explore stars, planets, and the wonders of the night sky.",
+      "details": [
+        "Understand constellations easily",
+        "Tips for night sky observation",
+        "Perfect for kids and astronomy lovers"
+      ]
+    },
+
+    {
+      "id": 303,
+      "title": "Journey Orient Express",
+      "category": "Book",
+      "price": 2600,
+      "currency": "INR",
+      "image": "img/b3.webp",
+      "author": "Lucas Bennett",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Collector’s Edition",
+      "pages": 250,
+      "overview": "Experience one of the world’s most luxurious train journeys through Europe.",
+      "details": [
+        "Covers historic train routes",
+        "Luxury travel insights",
+        "Beautiful photography and storytelling"
+      ]
+    },
+
+    {
+      "id": 304,
+      "title": "Journey Pacific Coast Highway",
+      "category": "Book",
+      "price": 2600,
+      "currency": "INR",
+      "image": "img/b4.webp",
+      "author": "Sophia Reed",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "1st Edition",
+      "pages": 230,
+      "overview": "Explore one of the most scenic coastal drives in the world.",
+      "details": [
+        "Road trip planning guide",
+        "Must-visit stops along the coast",
+        "Travel photography inspiration"
+      ]
+    },
+
+    {
+      "id": 305,
+      "title": "Where to Go When with Kids",
+      "category": "Book",
+      "price": 3600,
+      "currency": "INR",
+      "image": "img/b5.webp",
+      "author": "Olivia Green",
+      "publishedDate": "2023",
+      "language": "English",
+      "edition": "3rd Edition",
+      "pages": 300,
+      "overview": "A complete family travel guide to plan trips with kids all year round.",
+      "details": [
+        "Best destinations by season",
+        "Kid-friendly travel tips",
+        "Family travel planning made easy"
+      ]
+    },
+
+    {
+      "id": 306,
+      "title": "100 Weekends in Europe",
+      "category": "Book",
+      "price": 2900,
+      "currency": "INR",
+      "image": "img/b6.webp",
+      "author": "James Walker",
+      "publishedDate": "2022",
+      "language": "English",
+      "edition": "2nd Edition",
+      "pages": 320,
+      "overview": "Discover 100 amazing weekend destinations across Europe.",
+      "details": [
+        "Short trip planning ideas",
+        "Hidden gems across Europe",
+        "Budget and luxury options"
+      ]
+    },
+
+    {
+      "id": 307,
+      "title": "Dream Trips of the World",
+      "category": "Book",
+      "price": 4300,
+      "currency": "INR",
+      "image": "img/b7.webp",
+      "author": "Michael Scott",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Premium Edition",
+      "pages": 350,
+      "overview": "A collection of the most beautiful travel experiences around the world.",
+      "details": [
+        "Bucket list destinations",
+        "Luxury and adventure travel",
+        "High-quality travel photography"
+      ]
+    },
+
+    {
+      "id": 308,
+      "title": "Japan",
+      "category": "Book",
+      "price": 2900,
+      "currency": "INR",
+      "image": "img/b8.webp",
+      "author": "Hiroshi Tanaka",
+      "publishedDate": "2023",
+      "language": "English",
+      "edition": "Updated Edition",
+      "pages": 400,
+      "overview": "Complete travel guide to Japan covering culture, food, and attractions.",
+      "details": [
+        "City and rural travel guides",
+        "Japanese culture explained",
+        "Food and travel tips"
+      ]
+    },
+
+    {
+      "id": 309,
+      "title": "The Travel Book",
+      "category": "Book",
+      "price": 4800,
+      "currency": "INR",
+      "image": "img/b9.webp",
+      "author": "Anna White",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 500,
+      "overview": "Explore every country in the world through this comprehensive guide.",
+      "details": [
+        "Covers 200+ countries",
+        "Cultural and travel insights",
+        "Perfect coffee table book"
+      ]
+    },
+
+    {
+      "id": 310,
+      "title": "Best in Travel 2026",
+      "category": "Book",
+      "price": 1500,
+      "currency": "INR",
+      "image": "img/b10.webp",
+      "author": "Travel Experts Team",
+      "publishedDate": "2026",
+      "language": "English",
+      "edition": "Annual Edition",
+      "pages": 220,
+      "overview": "Top travel destinations and trends for the year 2026.",
+      "details": [
+        "Latest travel trends",
+        "Top countries to visit",
+        "Budget and premium suggestions"
+      ]
+    },
+
+    {
+      "id": 311,
+      "title": "A Place Called Home",
+      "category": "Book",
+      "price": 1300,
+      "currency": "INR",
+      "image": "img/b31.webp",
+      "author": "Liam Carter",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 120,
+      "overview": "Explore how people live around the world and what makes a place feel like home.",
+      "details": [
+        "Beautiful illustrated homes",
+        "Global cultures explained",
+        "Perfect for kids learning geography"
+      ]
+    },
+    {
+      "id": 312,
+      "title": "A Time to Celebrate",
+      "category": "Book",
+      "price": 1300,
+      "currency": "INR",
+      "image": "img/b32.webp",
+      "author": "Sophia Reed",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 110,
+      "overview": "Discover festivals, traditions, and celebrations from across the globe.",
+      "details": [
+        "Cultural celebrations worldwide",
+        "Colorful illustrations",
+        "Great for kids and families"
+      ]
+    },
+    {
+      "id": 313,
+      "title": "A Treasury of Traditional Tales",
+      "category": "Book",
+      "price": 1500,
+      "currency": "INR",
+      "image": "img/b33.webp",
+      "author": "Oliver Scott",
+      "publishedDate": "2019",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 180,
+      "overview": "A rich collection of traditional folk stories from different cultures.",
+      "details": [
+        "Classic global stories",
+        "Engaging storytelling",
+        "Ideal bedtime reading"
+      ]
+    },
+    {
+      "id": 314,
+      "title": "Pop-Up New York",
+      "category": "Book",
+      "price": 1000,
+      "currency": "INR",
+      "image": "img/b34.webp",
+      "author": "Emily Turner",
+      "publishedDate": "2022",
+      "language": "English",
+      "edition": "Pop-up Edition",
+      "pages": 20,
+      "overview": "A fun pop-up book exploring famous landmarks of New York City.",
+      "details": [
+        "Interactive pop-up pages",
+        "NYC landmarks",
+        "Perfect for kids"
+      ]
+    },
+    {
+      "id": 315,
+      "title": "Kids' Survival Guide",
+      "category": "Book",
+      "price": 1300,
+      "currency": "INR",
+      "image": "img/b35.webp",
+      "author": "Daniel Green",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Paperback",
+      "pages": 140,
+      "overview": "A practical guide teaching kids basic survival skills and outdoor knowledge.",
+      "details": [
+        "Outdoor survival tips",
+        "Fun activities",
+        "Adventure learning"
+      ]
+    },
+    {
+      "id": 316,
+      "title": "How Everything Works",
+      "category": "Book",
+      "price": 1900,
+      "currency": "INR",
+      "image": "img/b36.webp",
+      "author": "James Carter",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 200,
+      "overview": "Understand how everyday machines and systems work in a simple way.",
+      "details": [
+        "Easy explanations",
+        "Illustrated diagrams",
+        "Great for curious minds"
+      ]
+    },
+    {
+      "id": 317,
+      "title": "Hidden Wonders",
+      "category": "Book",
+      "price": 2000,
+      "currency": "INR",
+      "image": "img/b37.webp",
+      "author": "Natalie Brown",
+      "publishedDate": "2019",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 180,
+      "overview": "Explore hidden natural wonders and secret places around the world.",
+      "details": [
+        "Rare destinations",
+        "Nature-focused content",
+        "High-quality visuals"
+      ]
+    },
+    {
+      "id": 318,
+      "title": "The Big Book of Plane Activities",
+      "category": "Book",
+      "price": 1000,
+      "currency": "INR",
+      "image": "img/b38.webp",
+      "author": "Emma Wilson",
+      "publishedDate": "2022",
+      "language": "English",
+      "edition": "Activity Book",
+      "pages": 90,
+      "overview": "Fun activities and puzzles designed for kids during travel journeys.",
+      "details": ["Travel games", "Brain puzzles", "Kid-friendly activities"]
+    },
+    {
+      "id": 319,
+      "title": "Lift-the-Flap Atlas",
+      "category": "Book",
+      "price": 1900,
+      "currency": "INR",
+      "image": "img/b39.webp",
+      "author": "Oliver White",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Interactive",
+      "pages": 150,
+      "overview": "An interactive atlas that helps kids explore geography through fun flaps.",
+      "details": [
+        "Interactive learning",
+        "World geography",
+        "Educational content"
+      ]
+    },
+    {
+      "id": 320,
+      "title": "A Kid's Guide to London",
+      "category": "Book",
+      "price": 1200,
+      "currency": "INR",
+      "image": "img/b40.webp",
+      "author": "Lucy Adams",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Paperback",
+      "pages": 130,
+      "overview": "Explore London through a kid-friendly guide filled with fun facts.",
+      "details": ["London landmarks", "Fun travel facts", "Kid-focused content"]
+    },
+    {
+      "id": 321,
+      "title": "Airports: Board Book",
+      "category": "Book",
+      "price": 900,
+      "currency": "INR",
+      "image": "img/b41.webp",
+      "author": "Sam Taylor",
+      "publishedDate": "2018",
+      "language": "English",
+      "edition": "Board Book",
+      "pages": 60,
+      "overview": "A simple introduction to airports and airplanes for young readers.",
+      "details": [
+        "Basic airport concepts",
+        "Simple illustrations",
+        "Perfect for toddlers"
+      ]
+    },
+    {
+      "id": 322,
+      "title": "City Trails: Rome",
+      "category": "Book",
+      "price": 1300,
+      "currency": "INR",
+      "image": "img/b42.webp",
+      "author": "Marco Rossi",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Paperback",
+      "pages": 140,
+      "overview": "Explore Rome through fun trails and adventures designed for kids.",
+      "details": [
+        "City exploration trails",
+        "Historical spots",
+        "Interactive guide"
+      ]
+    },
+    {
+      "id": 323,
+      "title": "Atlas of Dogs",
+      "category": "Book",
+      "price": 1900,
+      "currency": "INR",
+      "image": "img/b43.webp",
+      "author": "David Clark",
+      "publishedDate": "2020",
+      "language": "English",
+      "edition": "Hardcover",
+      "pages": 170,
+      "overview": "Discover dog breeds from around the world in this fun atlas.",
+      "details": ["Global dog breeds", "Colorful visuals", "Fun facts included"]
+    },
+    {
+      "id": 324,
+      "title": "How Airports Work Activity Book",
+      "category": "Book",
+      "price": 900,
+      "currency": "INR",
+      "image": "img/b44.webp",
+      "author": "Anna Lee",
+      "publishedDate": "2022",
+      "language": "English",
+      "edition": "Activity Book",
+      "pages": 80,
+      "overview": "Learn how airports function with fun activities and puzzles.",
+      "details": [
+        "Airport operations",
+        "Interactive puzzles",
+        "Educational fun"
+      ]
+    },
+    {
+      "id": 325,
+      "title": "A Kid's Guide to Paris",
+      "category": "Book",
+      "price": 1200,
+      "currency": "INR",
+      "image": "img/b45.webp",
+      "author": "Claire Dubois",
+      "publishedDate": "2021",
+      "language": "English",
+      "edition": "Paperback",
+      "pages": 130,
+      "overview": "Discover Paris through a fun and engaging guide for kids.",
+      "details": [
+        "Paris attractions",
+        "Cultural highlights",
+        "Easy travel guide"
+      ]
+    }
+  ],
+  "Trip": [
+    {
+      "id": 401,
+      "title": "Beauty and Luxury in Patagonia",
+      "duration": "8 days / 7 nights",
+      "price": 9720,
+      "currency": "USD",
+      "image": "img/t401.avif",
+      "button": "Book Now",
+      "description": [
+        "Experience Patagonia’s breathtaking glaciers, lakes, and rugged mountains.",
+        "Enjoy luxury stays with scenic views and premium guided experiences.",
+        "Perfect for travelers seeking adventure with comfort and unforgettable landscapes."
+      ]
+    },
+    {
+      "id": 402,
+      "title": "Chasing Waterfalls in Iceland Highlands",
+      "duration": "10 days / 9 nights",
+      "price": 4150,
+      "currency": "USD",
+      "image": "img/t402.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Iceland’s hidden waterfalls and untouched highland landscapes.",
+        "Travel through volcanic terrain, glaciers, and remote natural wonders.",
+        "A thrilling journey for nature lovers and adventure seekers."
+      ]
+    },
+    {
+      "id": 403,
+      "title": "Cruising Norway’s North - Summer",
+      "duration": "15 days / 14 nights",
+      "price": 7386,
+      "currency": "USD",
+      "image": "img/t403.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Norway’s stunning fjords under the midnight sun.",
+        "Enjoy scenic cruises through dramatic coastal landscapes.",
+        "Perfect for summer travelers seeking peaceful and beautiful journeys."
+      ]
+    },
+    {
+      "id": 404,
+      "title": "Norway Arctic Winter Expedition",
+      "duration": "12 days / 11 nights",
+      "price": 7128,
+      "currency": "USD",
+      "image": "img/t404.avif",
+      "button": "Book Now",
+      "description": [
+        "Witness the magical northern lights in Arctic Norway.",
+        "Experience snow-covered landscapes and winter adventures.",
+        "Ideal for travelers seeking a unique winter escape."
+      ]
+    },
+    {
+      "id": 405,
+      "title": "Cultural Paris & French Countryside",
+      "duration": "13 days / 12 nights",
+      "price": 4130,
+      "currency": "USD",
+      "image": "img/t405.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Paris landmarks, art, and romantic city vibes.",
+        "Travel through charming French countryside villages.",
+        "A perfect mix of culture, food, and scenic beauty."
+      ]
+    },
+    {
+      "id": 406,
+      "title": "Costa Rica Rainforest Adventure",
+      "duration": "12 days / 11 nights",
+      "price": 3914,
+      "currency": "USD",
+      "image": "img/t406.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Costa Rica’s lush rainforests and volcanoes.",
+        "Enjoy wildlife, beaches, and eco-adventures.",
+        "Perfect for nature lovers and adventure seekers."
+      ]
+    },
+    {
+      "id": 407,
+      "title": "Dreams of Greece",
+      "duration": "12 days / 11 nights",
+      "price": 3750,
+      "currency": "USD",
+      "image": "img/t407.avif",
+      "button": "Book Now",
+      "description": [
+        "Visit Athens and the beautiful Cycladic islands.",
+        "Experience Greek culture, food, and ancient history.",
+        "Relax on beaches with stunning sunset views."
+      ]
+    },
+    {
+      "id": 408,
+      "title": "Finland Arctic Expedition",
+      "duration": "10 days / 9 nights",
+      "price": 5900,
+      "currency": "USD",
+      "image": "img/t408.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Finland’s snowy forests and northern lights.",
+        "Enjoy winter activities like sledding and skiing.",
+        "A peaceful and magical Arctic adventure."
+      ]
+    },
+    {
+      "id": 409,
+      "title": "California Coastal Road Trip",
+      "duration": "10 days / 9 nights",
+      "price": 4940,
+      "currency": "USD",
+      "image": "img/t409.avif",
+      "button": "Book Now",
+      "description": [
+        "Drive along California’s iconic Pacific coastline.",
+        "Visit San Francisco, beaches, and scenic viewpoints.",
+        "A perfect road trip with ocean views."
+      ]
+    },
+    {
+      "id": 410,
+      "title": "Southern Italy Escape",
+      "duration": "10 days / 9 nights",
+      "price": 4950,
+      "currency": "USD",
+      "image": "img/t410.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Naples, Amalfi Coast, and historic towns.",
+        "Enjoy Italian food, culture, and coastal beauty.",
+        "A relaxing and scenic Mediterranean journey."
+      ]
+    },
+
+    {
+      "id": 411,
+      "title": "Thailand Island Adventure",
+      "duration": "10 days / 9 nights",
+      "price": 2800,
+      "currency": "USD",
+      "image": "img/t411.avif",
+      "button": "Book Now",
+      "description": [
+        "Relax on Thailand’s tropical islands and beaches.",
+        "Enjoy local culture, food, and vibrant nightlife.",
+        "Perfect for a fun and relaxing vacation."
+      ]
+    },
+    {
+      "id": 412,
+      "title": "Vietnam Complete Journey",
+      "duration": "12 days / 11 nights",
+      "price": 2224,
+      "currency": "USD",
+      "image": "img/t412.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Vietnam’s cities, rivers, and landscapes.",
+        "Visit Ha Long Bay, Mekong Delta, and historic towns.",
+        "A perfect blend of culture and nature."
+      ]
+    },
+    {
+      "id": 413,
+      "title": "Ecuador Amazon Adventure",
+      "duration": "10 days / 9 nights",
+      "price": 3400,
+      "currency": "USD",
+      "image": "img/t413.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Ecuador’s Amazon rainforest and wildlife.",
+        "Experience local culture and nature exploration.",
+        "An exciting jungle adventure."
+      ]
+    },
+    {
+      "id": 414,
+      "title": "Arctic Summer Cruise",
+      "duration": "15 days / 14 nights",
+      "price": 14157,
+      "currency": "USD",
+      "image": "img/t414.avif",
+      "button": "Book Now",
+      "description": [
+        "Cruise through Arctic waters and icy landscapes.",
+        "Witness unique wildlife and glaciers.",
+        "A once-in-a-lifetime polar experience."
+      ]
+    },
+    {
+      "id": 415,
+      "title": "Argentina Patagonia Explorer",
+      "duration": "9 days / 8 nights",
+      "price": 4460,
+      "currency": "USD",
+      "image": "img/t415.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Argentina’s Patagonia region and glaciers.",
+        "Visit Iguazu Falls and Buenos Aires.",
+        "A perfect mix of nature and city life."
+      ]
+    },
+    {
+      "id": 416,
+      "title": "Southwest England Journey",
+      "duration": "12 days / 11 nights",
+      "price": 3800,
+      "currency": "USD",
+      "image": "img/t416.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Bristol, Cornwall, and coastal villages.",
+        "Enjoy scenic countryside and historic towns.",
+        "A relaxing cultural journey."
+      ]
+    },
+    {
+      "id": 417,
+      "title": "Basque Country Experience",
+      "duration": "8 days / 7 nights",
+      "price": 3200,
+      "currency": "USD",
+      "image": "img/t417.avif",
+      "button": "Book Now",
+      "description": [
+        "Visit Bilbao and Spain’s wine regions.",
+        "Enjoy food, culture, and scenic beauty.",
+        "Perfect for food and travel lovers."
+      ]
+    },
+    {
+      "id": 418,
+      "title": "Rajasthan Royal Journey",
+      "duration": "15 days / 14 nights",
+      "price": 4100,
+      "currency": "USD",
+      "image": "img/t418.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore India’s royal palaces and deserts.",
+        "Experience culture, history, and traditions.",
+        "A vibrant and colorful journey."
+      ]
+    },
+    {
+      "id": 419,
+      "title": "Greek Wonders Tour",
+      "duration": "10 days / 9 nights",
+      "price": 3600,
+      "currency": "USD",
+      "image": "img/t419.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover ancient Greek history and islands.",
+        "Visit iconic landmarks and beaches.",
+        "A perfect Mediterranean experience."
+      ]
+    },
+    {
+      "id": 420,
+      "title": "Yucatan & Riviera Maya",
+      "duration": "8 days / 7 nights",
+      "price": 3500,
+      "currency": "USD",
+      "image": "img/t420.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Mexico’s beaches and ancient ruins.",
+        "Visit Mayan temples and coastal resorts.",
+        "A mix of relaxation and history."
+      ]
+    },
+    {
+      "id": 421,
+      "title": "Treasures of Türkiye: Ancient Ruins and Anatolian Adventures",
+      "duration": "10 days / 9 nights",
+      "price": 2995,
+      "currency": "USD",
+      "image": "img/t1.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Türkiye’s rich cultural heritage through ancient ruins and vibrant cities.",
+        "Visit Istanbul, Izmir and Cappadocia with expert guides.",
+        "A perfect blend of history, culture and scenic beauty."
+      ]
+    },
+    {
+      "id": 422,
+      "title": "Winter in the Arctic North: 12 Days by Water and Land",
+      "duration": "12 days / 11 nights",
+      "price": 7492,
+      "currency": "USD",
+      "image": "img/t2.avif",
+      "button": "Book Now",
+      "description": [
+        "Experience Arctic landscapes, frozen fjords and northern lights.",
+        "Travel by ship and land through remote regions.",
+        "An unforgettable winter adventure."
+      ]
+    },
+    {
+      "id": 423,
+      "title": "South Africa’s Stunning South: Cape Town & Garden Route",
+      "duration": "12 days / 11 nights",
+      "price": 3100,
+      "currency": "USD",
+      "image": "img/t3.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Cape Town, vineyards and scenic coastal drives.",
+        "Enjoy wildlife, beaches and local cuisine.",
+        "Perfect mix of adventure and relaxation."
+      ]
+    },
+    {
+      "id": 424,
+      "title": "A Portal Through Portugal: Lisbon, Porto & Coastal Gems",
+      "duration": "10 days / 9 nights",
+      "price": 3120,
+      "currency": "USD",
+      "image": "img/t4.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Portugal’s charming cities and coastline.",
+        "Walk through historic streets and enjoy ocean views.",
+        "A relaxing European escape."
+      ]
+    },
+    {
+      "id": 425,
+      "title": "India: A 13-Day Culinary Adventure to Kerala",
+      "duration": "13 days / 12 nights",
+      "price": 5440,
+      "currency": "USD",
+      "image": "img/k.avif",
+      "button": "Book Now",
+      "description": [
+        "Experience Kerala’s backwaters, spices and cuisine.",
+        "Stay in houseboats and explore local traditions.",
+        "Perfect for food and culture lovers."
+      ]
+    },
+    {
+      "id": 426,
+      "title": "The French Riviera and Provence: Authentic France Journey",
+      "duration": "11 days / 10 nights",
+      "price": 4430,
+      "currency": "USD",
+      "image": "img/t5.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore coastal beauty and countryside charm.",
+        "Visit lavender fields, beaches and historic towns.",
+        "A luxurious and scenic trip."
+      ]
+    },
+    {
+      "id": 427,
+      "title": "The Other Italy: Sicily Grand Tour",
+      "duration": "11 days / 10 nights",
+      "price": 4950,
+      "currency": "USD",
+      "image": "img/t6.avif",
+      "button": "Book Now",
+      "description": [
+        "Discover Sicily’s culture, history and coastline.",
+        "Visit Taormina, Palermo and Syracuse.",
+        "A unique Italian experience."
+      ]
+    },
+    {
+      "id": 428,
+      "title": "Cruising Norway’s Fjords: Summer Expedition",
+      "duration": "15 days / 14 nights",
+      "price": 7386,
+      "currency": "USD",
+      "image": "img/t7.avif",
+      "button": "Book Now",
+      "description": [
+        "Cruise through Norway’s stunning fjords.",
+        "Enjoy breathtaking landscapes and midnight sun.",
+        "Ideal for nature lovers."
+      ]
+    },
+    {
+      "id": 429,
+      "title": "Japan’s Golden Route: Tokyo to Kyoto",
+      "duration": "14 days / 13 nights",
+      "price": 6820,
+      "currency": "USD",
+      "image": "img/t9.avif",
+      "button": "Book Now",
+      "description": [
+        "Explore Japan’s top destinations in one trip.",
+        "From Tokyo’s modern life to Kyoto’s tradition.",
+        "A perfect cultural journey."
+      ]
+    }
+  ],
+  
+  "Destinations": [
+    {
+      "id": 501,
+      "country": "Peru",
+      "place": "Machu Picchu",
+      "image": "img/d501.avif",
+      "button": "Discover",
+      "about": "Machu Picchu is a breathtaking ancient Incan citadel nestled high in the Andes Mountains, offering a perfect blend of history, mystery, and natural beauty.",
+      "description": [
+        "This UNESCO World Heritage site is one of the most iconic landmarks in the world.",
+        "Surrounded by lush green peaks and misty clouds, it creates a magical atmosphere.",
+        "A dream destination for history enthusiasts, trekkers, and photographers.",
+        "The Inca Trail journey itself is an unforgettable adventure."
+      ],
+      "mustVisit": ["Sun Gate", "Temple of the Sun", "Huayna Picchu", "Inca Bridge"]
+    },
+    {
+      "id": 502,
+      "country": "Switzerland",
+      "place": "Zurich",
+      "image": "img/d502.avif",
+      "button": "Discover",
+      "about": "Zurich is Switzerland’s largest city, known for its scenic lakeside setting, snow-capped mountains, and a perfect blend of modern lifestyle and historic charm.",
+      "description": [
+        "The city offers a peaceful environment with stunning natural landscapes.",
+        "It is famous for its clean streets, luxury shopping, and cultural attractions.",
+        "Zurich’s old town reflects centuries of rich European history.",
+        "Ideal for travelers seeking relaxation, nature, and elegance."
+      ],
+      "mustVisit": ["Lake Zurich", "Old Town", "Bahnhofstrasse", "Uetliberg"]
+    },
+    {
+      "id": 503,
+      "country": "Sweden",
+      "place": "Stockholm",
+      "image": "img/d503.avif",
+      "button": "Discover",
+      "about": "Stockholm, the capital of Sweden, is spread across 14 islands and is known for its beautiful waterfront views and vibrant cultural scene.",
+      "description": [
+        "The city perfectly blends historic architecture with modern Scandinavian design.",
+        "Its clean environment and peaceful lifestyle attract tourists worldwide.",
+        "Museums, palaces, and narrow cobbled streets add to its charm.",
+        "A paradise for culture lovers and explorers."
+      ],
+      "mustVisit": ["Gamla Stan", "Vasa Museum", "Royal Palace", "Skansen"]
+    },
+    {
+      "id": 504,
+      "country": "Costa Rica",
+      "place": "San José",
+      "image": "img/d504.avif",
+      "button": "Discover",
+      "about": "San José is the vibrant capital of Costa Rica and serves as a gateway to the country’s rich biodiversity, rainforests, and volcanoes.",
+      "description": [
+        "The city offers a mix of cultural heritage and modern lifestyle.",
+        "Surrounded by natural beauty including forests and wildlife reserves.",
+        "A perfect starting point for eco-tourism adventures.",
+        "Known for friendly locals and lively markets."
+      ],
+      "mustVisit": ["Poás Volcano", "Central Market", "National Theatre", "La Sabana"]
+    },
+    {
+      "id": 505,
+      "country": "Vietnam",
+      "place": "Hanoi",
+      "image": "img/d505.avif",
+      "button": "Discover",
+      "about": "Hanoi is a historic and cultural hub of Vietnam, known for its centuries-old architecture and vibrant street life.",
+      "description": [
+        "The city showcases a mix of French colonial buildings and traditional temples.",
+        "Street food culture here is one of the best in the world.",
+        "Bustling markets and lakes add charm to the environment.",
+        "A must-visit destination for culture and food lovers."
+      ],
+      "mustVisit": ["Old Quarter", "Hoan Kiem Lake", "Temple of Literature", "Mausoleum"]
+    },
+    {
+      "id": 506,
+      "country": "Netherlands",
+      "place": "Amsterdam",
+      "image": "img/d506.avif",
+      "button": "Discover",
+      "about": "Amsterdam is a charming European city famous for its canals, cycling culture, and artistic heritage.",
+      "description": [
+        "The city offers a relaxed atmosphere with scenic waterways.",
+        "Known for world-class museums and historic buildings.",
+        "A vibrant nightlife and café culture enhance the experience.",
+        "Perfect for art lovers and explorers."
+      ],
+      "mustVisit": ["Anne Frank House", "Van Gogh Museum", "Canals", "Dam Square"]
+    },
+    {
+      "id": 507,
+      "country": "South Korea",
+      "place": "Seoul",
+      "image": "img/d507.avif",
+      "button": "Discover",
+      "about": "Seoul is a dynamic capital city that blends cutting-edge technology with deep-rooted traditions and cultural heritage.",
+      "description": [
+        "The city features modern skyscrapers alongside ancient palaces.",
+        "Popular for K-pop, Korean cuisine, and fashion.",
+        "Bustling markets and nightlife make it lively and exciting.",
+        "A perfect destination for modern travelers."
+      ],
+      "mustVisit": ["Gyeongbokgung", "N Seoul Tower", "Myeongdong", "Bukchon"]
+    },
+    {
+      "id": 508,
+      "country": "Cuba",
+      "place": "Havana",
+      "image": "img/d508.avif",
+      "button": "Discover",
+      "about": "Havana is a colorful and lively city known for its colonial architecture, vintage cars, and rich musical heritage.",
+      "description": [
+        "The streets are filled with vibrant life and cultural energy.",
+        "A perfect blend of history, music, and Caribbean vibes.",
+        "Famous for its unique charm and nostalgic atmosphere.",
+        "Ideal for travelers seeking something different."
+      ],
+      "mustVisit": ["Old Havana", "Malecón", "Capitolio", "Plaza Vieja"]
+    },
+
+    {
+      "id": 509,
+      "country": "Colombia",
+      "place": "Medellín",
+      "image": "img/d509.avif",
+      "button": "Discover",
+      "about": "Medellín is a vibrant Colombian city known for its transformation into a modern and innovative urban hub surrounded by mountains.",
+      "description": [
+        "Once known for its troubled past, the city is now a symbol of progress.",
+        "Pleasant climate all year makes it attractive for travelers.",
+        "Rich culture, art, and nightlife create an energetic vibe.",
+        "A must-visit for urban explorers."
+      ],
+      "mustVisit": ["Comuna 13", "Botero Plaza", "Metrocable", "Arví Park"]
+    },
+
+    {
+      "id": 510,
+      "country": "Belgium",
+      "place": "Brussels",
+      "image": "img/d510.avif",
+      "button": "Discover",
+      "about": "Brussels is a historic European capital famous for its grand architecture, chocolates, and political significance.",
+      "description": [
+        "Home to the European Union headquarters.",
+        "Rich blend of medieval and modern structures.",
+        "Famous for waffles, chocolates, and beer.",
+        "A cultural and political hub of Europe."
+      ],
+      "mustVisit": ["Grand Place", "Atomium", "Royal Palace", "Manneken Pis"]
+    },
+
+    {
+      "id": 511,
+      "country": "Japan",
+      "place": "Tokyo",
+      "image": "img/d511.avif",
+      "button": "Discover",
+      "about": "Tokyo is a futuristic metropolis where traditional temples coexist with advanced technology and vibrant city life.",
+      "description": [
+        "A perfect blend of ancient culture and modern innovation.",
+        "Known for its fast-paced lifestyle and neon lights.",
+        "World-famous cuisine and unique experiences.",
+        "A must-visit global city."
+      ],
+      "mustVisit": ["Shibuya", "Asakusa", "Tokyo Tower", "Akihabara"]
+    },
+
+    {
+      "id": 512,
+      "country": "Mexico",
+      "place": "Cancun",
+      "image": "img/d512.avif",
+      "button": "Discover",
+      "about": "Cancun is a tropical paradise known for its crystal-clear waters, white sandy beaches, and luxurious resorts.",
+      "description": [
+        "A top destination for beach lovers and honeymooners.",
+        "Offers water sports and nightlife.",
+        "Close to ancient Mayan ruins.",
+        "Perfect mix of relaxation and adventure."
+      ],
+      "mustVisit": ["Hotel Zone", "Isla Mujeres", "Tulum", "Chichen Itza"]
+    },
+
+    {
+      "id": 513,
+      "country": "Germany",
+      "place": "Berlin",
+      "image": "img/d513.avif",
+      "button": "Discover",
+      "about": "Berlin is Germany’s capital, rich in history, art, and modern urban culture.",
+      "description": [
+        "A city shaped by history and transformation.",
+        "Known for its vibrant art scene.",
+        "Offers museums, monuments, and nightlife.",
+        "A dynamic and diverse destination."
+      ],
+      "mustVisit": ["Berlin Wall", "Brandenburg Gate", "Museum Island", "Reichstag"]
+    },
+
+    {
+      "id": 514,
+      "country": "Indonesia",
+      "place": "Bali",
+      "image": "img/d514.avif",
+      "button": "Discover",
+      "about": "Bali is a tropical island paradise famous for its beaches, temples, and serene landscapes.",
+      "description": [
+        "Known as the Island of Gods.",
+        "Perfect for relaxation and adventure.",
+        "Rich cultural traditions.",
+        "A dream vacation spot."
+      ],
+      "mustVisit": ["Ubud", "Kuta Beach", "Tanah Lot", "Mount Batur"]
+    },
+
+    {
+      "id": 515,
+      "country": "Thailand",
+      "place": "Bangkok",
+      "image": "img/d515.avif",
+      "button": "Discover",
+      "about": "Bangkok is a bustling capital city known for ornate temples, street food, and vibrant nightlife.",
+      "description": [
+        "A mix of tradition and modern life.",
+        "Famous for street markets and cuisine.",
+        "Colorful and energetic city.",
+        "A must-visit Asian destination."
+      ],
+      "mustVisit": ["Grand Palace", "Wat Arun", "Floating Market", "Chatuchak"]
+    },
+
+    {
+      "id": 516,
+      "country": "New Zealand",
+      "place": "Queenstown",
+      "image": "img/d516.avif",
+      "button": "Discover",
+      "about": "Queenstown is the adventure capital of the world, surrounded by mountains and lakes.",
+      "description": [
+        "Perfect for thrill seekers.",
+        "Offers bungee jumping and skiing.",
+        "Scenic natural beauty.",
+        "A paradise for adventurers."
+      ],
+      "mustVisit": ["Lake Wakatipu", "Skyline", "Milford Sound", "Bungee Jump"]
+    },
+
+    {
+      "id": 517,
+      "country": "Brazil",
+      "place": "Rio",
+      "image": "img/d517.avif",
+      "button": "Discover",
+      "about": "Rio de Janeiro is a vibrant coastal city famous for its beaches, carnival, and iconic landmarks.",
+      "description": [
+        "Home to the Christ the Redeemer statue.",
+        "Known for lively festivals.",
+        "Beautiful coastline and mountains.",
+        "Energetic atmosphere."
+      ],
+      "mustVisit": ["Christ Redeemer", "Copacabana", "Sugarloaf", "Maracanã"]
+    },
+
+    {
+      "id": 518,
+      "country": "Ireland",
+      "place": "Dublin",
+      "image": "img/d518.avif",
+      "button": "Discover",
+      "about": "Dublin is a charming capital city known for its literary heritage and friendly culture.",
+      "description": [
+        "Rich history and tradition.",
+        "Lively pubs and music.",
+        "Welcoming atmosphere.",
+        "A cultural hotspot."
+      ],
+      "mustVisit": ["Trinity College", "Temple Bar", "Dublin Castle", "Guinness Storehouse"]
+    },
+
+    {
+      "id": 519,
+      "country": "South Africa",
+      "place": "Cape Town",
+      "image": "img/d519.avif",
+      "button": "Discover",
+      "about": "Cape Town is a stunning coastal city surrounded by mountains and ocean views.",
+      "description": [
+        "One of the most beautiful cities in the world.",
+        "Offers beaches, mountains, and wildlife.",
+        "Rich cultural diversity.",
+        "A perfect travel destination."
+      ],
+      "mustVisit": ["Table Mountain", "Cape Point", "Robben Island", "Boulders Beach"]
+    },
+
+    {
+      "id": 520,
+      "country": "Russia",
+      "place": "Moscow",
+      "image": "img/d520.avif",
+      "button": "Discover",
+      "about": "Moscow is a historic capital known for its iconic architecture and rich cultural heritage.",
+      "description": [
+        "Home to Red Square and Kremlin.",
+        "Deep history and traditions.",
+        "Famous landmarks.",
+        "A cultural powerhouse."
+      ],
+      "mustVisit": ["Red Square", "Kremlin", "Saint Basil", "Bolshoi Theatre"]
+    },
+
+    {
+      "id": 521,
+      "country": "Canada",
+      "place": "Banff",
+      "image": "img/d521.avif",
+      "button": "Discover",
+      "about": "Banff is a scenic destination located in the Canadian Rockies, known for its stunning landscapes.",
+      "description": [
+        "Crystal-clear lakes and mountains.",
+        "Perfect for nature lovers.",
+        "Peaceful and refreshing environment.",
+        "A paradise for photographers."
+      ],
+      "mustVisit": ["Lake Louise", "Banff Gondola", "Moraine Lake", "Hot Springs"]
+    },
+
+    {
+      "id": 522,
+      "country": "France",
+      "place": "Paris",
+      "image": "img/d522.avif",
+      "button": "Discover",
+      "about": "Paris, the City of Love, is famous for its romance, art, and iconic landmarks.",
+      "description": [
+        "Home to Eiffel Tower and Louvre.",
+        "World capital of fashion and art.",
+        "Romantic atmosphere.",
+        "A dream destination."
+      ],
+      "mustVisit": ["Eiffel Tower", "Louvre", "Notre Dame", "Seine River"]
+    },
+
+    {
+      "id": 523,
+      "country": "China",
+      "place": "Beijing",
+      "image": "img/d523.avif",
+      "button": "Discover",
+      "about": "Beijing is a historic city that showcases China’s rich heritage and modern development.",
+      "description": [
+        "Home to the Great Wall.",
+        "Ancient palaces and temples.",
+        "Cultural richness.",
+        "A blend of past and present."
+      ],
+      "mustVisit": ["Great Wall", "Forbidden City", "Temple of Heaven", "Summer Palace"]
+    },
+
+    {
+      "id": 524,
+      "country": "England",
+      "place": "London",
+      "image": "img/d524.avif",
+      "button": "Discover",
+      "about": "London is a global city known for its history, culture, and iconic landmarks.",
+      "description": [
+        "Blend of tradition and modernity.",
+        "Famous for landmarks and museums.",
+        "Diverse culture.",
+        "A must-visit city."
+      ],
+      "mustVisit": ["Big Ben", "London Eye", "Tower Bridge", "Buckingham Palace"]
+    },
+
+    {
+      "id": 525,
+      "country": "Greece",
+      "place": "Santorini",
+      "image": "img/d525.avif",
+      "button": "Discover",
+      "about": "Santorini is a stunning island known for its white buildings and breathtaking sunsets.",
+      "description": [
+        "Romantic destination.",
+        "Beautiful coastal views.",
+        "Unique architecture.",
+        "Perfect for couples."
+      ],
+      "mustVisit": ["Oia", "Fira", "Red Beach", "Caldera"]
+    },
+
+    {
+      "id": 526,
+      "country": "USA",
+      "place": "New York",
+      "image": "img/d526.avif",
+      "button": "Discover",
+      "about": "New York City is a global hub of culture, finance, and entertainment.",
+      "description": [
+        "Known as the city that never sleeps.",
+        "Iconic skyline and landmarks.",
+        "Diverse culture.",
+        "Fast-paced life."
+      ],
+      "mustVisit": ["Times Square", "Central Park", "Statue of Liberty", "Brooklyn Bridge"]
+    },
+
+    {
+      "id": 527,
+      "country": "Australia",
+      "place": "Sydney",
+      "image": "img/d527.avif",
+      "button": "Discover",
+      "about": "Sydney is a vibrant harbor city known for its iconic Opera House and beaches.",
+      "description": [
+        "Famous for harbor views.",
+        "Relaxed coastal lifestyle.",
+        "Great food and culture.",
+        "Perfect travel destination."
+      ],
+      "mustVisit": ["Opera House", "Bondi Beach", "Harbour Bridge", "Darling Harbour"]
+    },
+
+    {
+      "id": 528,
+      "country": "Italy",
+      "place": "Rome",
+      "image": "img/d528.avif",
+      "button": "Discover",
+      "about": "Rome is a historic city filled with ancient monuments and rich cultural heritage.",
+      "description": [
+        "Home to the Colosseum.",
+        "Rich Roman history.",
+        "Delicious Italian cuisine.",
+        "A timeless destination."
+      ],
+      "mustVisit": ["Colosseum", "Vatican", "Trevi Fountain", "Pantheon"]
+    },
+
+    {
+      "id": 529,
+      "country": "Spain",
+      "place": "Barcelona",
+      "image": "img/d529.avif",
+      "button": "Discover",
+      "about": "Barcelona is a vibrant coastal city known for its art, architecture, and beaches.",
+      "description": [
+        "Famous for Gaudi architecture.",
+        "Lively streets and culture.",
+        "Beautiful beaches.",
+        "A perfect mix of city and coast."
+      ],
+      "mustVisit": ["Sagrada Familia", "Park Guell", "La Rambla", "Beach"]
+    },
+
+    {
+      "id": 530,
+      "country": "India",
+      "place": "Agra",
+      "image": "img/d530.avif",
+      "button": "Discover",
+      "about": "Agra is a historic Indian city best known for the Taj Mahal, a symbol of love and architectural brilliance.",
+      "description": [
+        "Home to one of the Seven Wonders.",
+        "Rich Mughal history.",
+        "Beautiful monuments.",
+        "Cultural heritage destination."
+      ],
+      "mustVisit": ["Taj Mahal", "Agra Fort", "Mehtab Bagh", "Fatehpur Sikri"]
+    },
+
+    {
+      "id": 531,
+      "country": "Argentina",
+      "place": "Patagonia",
+      "image": "img/d531.avif",
+      "button": "Discover",
+      "about": "Patagonia is a vast natural region known for its dramatic landscapes, glaciers, and mountains.",
+      "description": [
+        "A paradise for adventure lovers.",
+        "Untouched natural beauty.",
+        "Famous for trekking and exploration.",
+        "One of the most scenic regions in the world."
+      ],
+      "mustVisit": ["Perito Moreno", "Torres del Paine", "Fitz Roy", "Los Glaciares"]
+    },
+    {
+      "id": 532,
+      "country": "Spain",
+      "place": "Seville",
+      "image": "img/d1.avif",
+      "button": "Discover",
+      "about": "Seville is the capital of southern Spain’s Andalusia region, famous for flamenco dancing, historic architecture, and vibrant culture.",
+      "description": [
+        "Seville is known for its stunning landmarks like the Alcázar Palace and Seville Cathedral.",
+        "The city offers a rich mix of history, culture, and nightlife.",
+        "It is one of the best places to experience authentic Spanish traditions."
+      ],
+      "mustVisit": [
+        "Alcázar of Seville",
+        "Seville Cathedral",
+        "Plaza de España",
+        "Metropol Parasol"
+      ]
+    },
+    {
+      "id": 533,
+      "country": "Europe",
+      "place": "Faroe Islands",
+      "image": "img/d2.avif",
+      "button": "Discover",
+      "about": "The Faroe Islands are a group of volcanic islands between Iceland and Norway, known for dramatic landscapes.",
+      "description": [
+        "Perfect for nature lovers with waterfalls, cliffs, and green hills.",
+        "Offers peaceful and less crowded travel experience.",
+        "Ideal for hiking and photography."
+      ],
+      "mustVisit": [
+        "Mulafossur Waterfall",
+        "Torshavn",
+        "Gasadalur Village",
+        "Lake Sørvágsvatn"
+      ]
+    },
+    {
+      "id": 534,
+      "country": "Australia & Pacific",
+      "place": "Palau",
+      "image": "img/d3.avif",
+      "button": "Discover",
+      "about": "Palau is a tropical paradise in the Pacific Ocean known for crystal-clear waters and marine biodiversity.",
+      "description": [
+        "One of the best diving destinations in the world.",
+        "Famous for Rock Islands and Jellyfish Lake.",
+        "Great for snorkeling and island hopping."
+      ],
+      "mustVisit": [
+        "Rock Islands",
+        "Jellyfish Lake",
+        "Ngardmau Waterfall",
+        "Koror Island"
+      ]
+    },
+    {
+      "id": 535,
+      "country": "Caribbean",
+      "place": "Antigua & Barbuda",
+      "image": "img/d4.avif",
+      "button": "Discover",
+      "about": "Antigua & Barbuda is a Caribbean nation known for its 365 beaches and luxury resorts.",
+      "description": [
+        "Perfect destination for beach lovers.",
+        "Offers crystal-clear water and white sand beaches.",
+        "Popular for sailing and water sports."
+      ],
+      "mustVisit": [
+        "Dickenson Bay",
+        "Nelson’s Dockyard",
+        "Shirley Heights",
+        "Half Moon Bay"
+      ]
+    },
+    {
+      "id": 536,
+      "country": "Netherlands",
+      "place": "Maastricht",
+      "image": "img/d5.avif",
+      "button": "Discover",
+      "about": "Maastricht is a historic city in the Netherlands known for its medieval architecture and vibrant culture.",
+      "description": [
+        "Offers a blend of history and modern lifestyle.",
+        "Known for beautiful squares and cafes.",
+        "Great place for walking tours."
+      ],
+      "mustVisit": [
+        "Vrijthof Square",
+        "St. Servatius Bridge",
+        "Maastricht Caves",
+        "Bonnefanten Museum"
+      ]
+    },
+    {
+      "id": 537,
+      "country": "India",
+      "place": "Kerala",
+      "image": "img/d6.webp",
+      "button": "Discover",
+      "about": "Kerala, known as 'God’s Own Country', is famous for its backwaters, greenery, and peaceful lifestyle.",
+      "description": [
+        "Kerala offers a perfect blend of beaches, hills, and backwaters.",
+        "It is known for houseboat experiences in Alleppey.",
+        "Rich culture, Ayurveda, and traditional cuisine attract tourists worldwide."
+      ],
+      "mustVisit": [
+        "Alleppey Backwaters",
+        "Munnar Hills",
+        "Wayanad",
+        "Kochi Fort Area"
+      ]
+    },
+    {
+      "id": 538,
+      "country": "India",
+      "place": "Jaipur",
+      "image": "img/d7.webp",
+      "button": "Discover",
+      "about": "Jaipur, the Pink City of India, is known for its royal palaces, forts, and vibrant culture.",
+      "description": [
+        "Jaipur showcases the royal heritage of Rajasthan.",
+        "Famous for its colorful markets, handicrafts, and food.",
+        "A perfect destination for history and architecture lovers."
+      ],
+      "mustVisit": ["Hawa Mahal", "Amber Fort", "City Palace", "Jantar Mantar"]
+    },
+    {
+      "id": 539,
+      "country": "Australia & Pacific",
+      "place": "Tonga",
+      "image": "img/d8.avif",
+      "button": "Discover",
+      "about": "Tonga is a Polynesian kingdom of more than 170 islands known for its beaches, coral reefs, and rich marine life.",
+      "description": [
+        "Tonga is famous for its untouched beaches and crystal-clear waters.",
+        "One of the few places in the world where you can swim with humpback whales.",
+        "Perfect destination for peaceful island life and nature lovers."
+      ],
+      "mustVisit": [
+        "Haʻamonga ʻa Maui Trilithon",
+        "Mapu’a ‘a Vaea Blowholes",
+        "Eua Island",
+        "Tongatapu Beaches"
+      ]
+    },
+    {
+      "id": 540,
+      "country": "Argentina",
+      "place": "Patagonia",
+      "image": "img/d9.avif",
+      "button": "Discover",
+      "about": "Patagonia is a stunning region in southern Argentina and Chile, known for glaciers, mountains, and wild landscapes.",
+      "description": [
+        "Patagonia offers breathtaking views of glaciers and snow-capped peaks.",
+        "A paradise for trekking, hiking, and adventure lovers.",
+        "Home to unique wildlife and untouched natural beauty."
+      ],
+      "mustVisit": [
+        "Perito Moreno Glacier",
+        "Torres del Paine",
+        "Mount Fitz Roy",
+        "Los Glaciares National Park"
+      ]
+    }
+  ]
+}

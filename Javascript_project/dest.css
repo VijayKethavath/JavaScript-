@@ -1,0 +1,280 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.overlay h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* NAVBAR */
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  font-size: 30px;
+  color: #0d6efd;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 28px;
+  margin-left: 8px;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+   margin-right: 200px;
+}
+
+.menu p {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu p:hover {
+  color: #0077ff;
+}
+
+/* ICONS */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icons img {
+  width: 22px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+
+  .overlay h1 {
+    font-size: 35px;
+  }
+
+  .search-box input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .overlay {
+    left: 5%;
+  }
+
+  .overlay h1 {
+    font-size: 28px;
+    padding: 15px;
+  }
+}
+
+
+.overlay h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 900px) {
+
+  .menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+
+    display: none; /* hidden by default */
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+.box{
+  margin-top: 100px;
+}
+/* 8888888888888 */
+/* Container */
+.destination-content {
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: #6c757d;
+}
+
+
+/* Card */
+.destination-card {
+  width: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover */
+.destination-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.dest-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Content */
+.dest-content {
+  padding: 15px;
+}
+
+/* Country */
+.dest-country {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+/* Title */
+.dest-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Button */
+.dest-btn {
+  padding: 8px 14px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+.dest-btn:hover {
+  background: black;
+  color: white;
+}
+
+/*  */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-item i {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.label {
+  font-size: 11px;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.value {
+  font-size: 14px;
+  color: #fff;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #333;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+  position: relative;
+}
+
+.footer-bottom span {
+  padding: 0 10px;
+}
+
+.footer-bottom::before,
+.footer-bottom::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background: #444;
+  vertical-align: middle;
+  margin: 0 10px;
+}
