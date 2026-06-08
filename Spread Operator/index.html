@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+    // Array copy
+    let a = [1,2,3]
+    let b = [...a]
+    console.log(b);
+
+    //merge Array
+    let a1 = [1,2,3]
+    let b1 = [3,4,5]
+    let c1 = [...a1,...b1]
+    console.log(c1);
+
+    //Add elements to array
+    let newnum = [...a1,"a","b","c",...b1]
+    console.log(newnum);
+
+    //copy obj
+    let person={
+      name:"Vijay",
+      age:22}
+
+    let copy = {...person}
+    console.log(copy);
+
+    //merge obj
+    let person1 = {
+      name:"Ajay", // name replaced
+      class:"10th"
+    }
+
+    let res = {...person,...person1}
+    console.log(res);
+
+    //function arg
+    num = [1,2,3]
+    function sum(a,b,c){
+      return a+b+c;
+    }
+    console.log(sum(...num));
+  
+  </script>
+</body>
+</html>
